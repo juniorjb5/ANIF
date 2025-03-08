@@ -1,0 +1,35 @@
+banner:
+  enable: true
+  image: "images/escuela2.png"
+  contents: "**[Escuela de Ingeniería Industrial](https://industrial.univalle.edu.co/)    |    [Facultad de Ingeniería](https://ingenieria.univalle.edu.co/)   |   [Universidad del Valle](https://www.univalle.edu.co/)**"
+  #button:
+  #  contents: "Aprenda Más"
+  #  url: "#"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: Análisis de Datos
+      icon: fa-chart-bar
+      content: >
+        Aprende a interpretar y modelar datos para tomar decisiones estratégicas.
+    - title: Finanzas Empresariales
+      icon: fa-landmark
+      content: >
+        Desarrolla habilidades para la gestión financiera y la evaluación de inversiones.
+    - title: Innovación y Tecnología
+      icon: fa-robot
+      content: >
+        Aplica herramientas de Machine Learning y modelado financiero para generar impacto.
+  - type: heading
+    heading: ![Logo](images/logoanif.png) Explora el poder de la Analítica y las Finanzas con ANIF
+    contents: Un espacio para crecer, innovar y liderar en el mundo financiero
+  - type: posts
+    heading: Publicaciones recientes
+    content_type: posts
+    max: 4
+  - type: cta
+    contents: 🌍 Conéctate, aprende y haz la diferencia.
+    button:
+      contents: Conoce nuestro grupo
+      url: "#"
