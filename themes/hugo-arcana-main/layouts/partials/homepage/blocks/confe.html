@@ -1,0 +1,40 @@
+<section class="wrapper style1">
+    <div class="container">
+        {{ with .item.heading }}
+            <h2 style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 1.5rem;">
+                {{ . }}
+            </h2>
+        {{ end }}
+        
+        {{- $pages := (.ctx.Site.GetPage .item.content_type).RegularPagesRecursive }}
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+            {{- range first (.item.max | default (len $pages)) (where $pages "Title" "!=" "") }}
+                <div style="
+                    padding: 1rem; 
+                    background-color: #fafafa;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border-radius: 8px;
+                    transition: transform 0.2s ease-in-out;
+                    max-height: 220px; 
+                    overflow: hidden;
+                    text-align: center;
+                ">
+                    {{ with .Params.image }}
+                        <img src="{{ . }}" alt="Post image" style="
+                            width: 100px; 
+                            height: 100px; 
+                            object-fit: cover;
+                            border-radius: 8px;
+                            margin-bottom: 8px;
+                        ">
+                    {{ end }}
+                    <h3 style="font-size: 1.2rem; font-weight: bold; margin-bottom: 0.5rem;">
+                        <a href="{{ .Permalink }}" style="color: inherit; text-decoration: none;">
+                            {{ .Title }}
+                        </a>
+                    </h3>
+                </div>
+            {{- end }}
+        </div>
+    </div>
+</section>

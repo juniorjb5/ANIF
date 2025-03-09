@@ -22,14 +22,20 @@ items:
       content: >
         Aplica herramientas de Machine Learning y modelado financiero para generar impacto.
   - type: heading
-    heading: ![Logo](images/logoanif.png) Explora el poder de la Analítica y las Finanzas con ANIF
+    heading: Explora el poder de la Analítica y las Finanzas con ANIF
     contents: Un espacio para crecer, innovar y liderar en el mundo financiero
   - type: posts
     heading: Publicaciones recientes
     content_type: posts
     max: 4
+  - type: confe
+    heading: Conferencias recientes
+    content_type: posts
+    max: 3
   - type: cta
+    image: "images/logoanif.png"
     contents: 🌍 Conéctate, aprende y haz la diferencia.
     button:
       contents: Conoce nuestro grupo
       url: "#"
+  

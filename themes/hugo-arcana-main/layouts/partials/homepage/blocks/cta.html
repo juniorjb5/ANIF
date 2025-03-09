@@ -1,10 +1,20 @@
 <section id="cta" class="wrapper style3">
     <div class="container">
-        <header>
-            <h2>{{ .item.contents | markdownify }}</h2>
-            {{- with .item.button }}
-                <a href="{{ .url }}" class="button">{{ .contents }}</a>
-            {{- end }}
+        <header style="display: flex; align-items: center; justify-content: center; gap: 20px; position: relative;">
+
+            <!-- Logo con posición absoluta para que no agrande el contenedor -->
+            <img src="/images/logoanif.png" 
+                 alt="Logo Semillero ANIF" 
+                 style="width: 150px; height: auto; position: absolute; right: -20px; top: 50%; transform: translateY(-50%);" />
+
+            <!-- Texto del CTA -->
+            <div>
+                <h2>{{ .item.contents | markdownify }}</h2>
+                {{- with .item.button }}
+                    <a href="{{ .url }}" class="button">{{ .contents }}</a>
+                {{- end }}
+            </div>
         </header>
     </div>
 </section>
+

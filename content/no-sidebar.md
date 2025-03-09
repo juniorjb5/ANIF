@@ -1,5 +1,5 @@
 ---
-title: "No Sidebar"
+title: "Grupo de Investigación GIFINC"
 description: "All content, all the time."
 menu: main
 weight: 80

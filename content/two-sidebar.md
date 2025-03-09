@@ -1,5 +1,5 @@
 ---
-title: "Two Sidebar"
+title: "Integrantes"
 description: "Yup. Two sidebars at the same time."
 menu: main
 weight: 70

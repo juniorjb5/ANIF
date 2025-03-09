@@ -1,5 +1,5 @@
 ---
-title: "Left Sidebar"
+title: "Quiénes somos"
 description: "Sidebar on the left, content on the right."
 menu: main
 weight: 50

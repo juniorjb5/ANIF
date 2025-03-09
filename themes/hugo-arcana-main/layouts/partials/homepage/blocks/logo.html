@@ -1,0 +1,23 @@
+<section class="wrapper style2">
+    <div class="container">
+        <div class="logo-wrapper">
+            {{- if .item.image }}
+                <img src="{{ .item.image | relURL }}" alt="Logo" class="logo">
+            {{- end }}
+        </div>
+    </div>
+</section>
+
+<style>
+    .logo-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .logo {
+        width: 250px; /* Cambia el tamaño si lo necesitas */
+        height: auto;
+    }
+</style>

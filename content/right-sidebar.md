@@ -1,5 +1,5 @@
 ---
-title: "Right Sidebar"
+title: "Líneas de Investigación"
 description: "Sidebar on the right, content on the left."
 menu: main
 weight: 60
