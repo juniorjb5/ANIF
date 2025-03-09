@@ -7,6 +7,7 @@ tags:
   - Mercados
   - Riesgo
 description: Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos.
+sidebar_left: sidebar1
 ---
 
 Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.

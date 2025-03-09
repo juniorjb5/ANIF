@@ -30,12 +30,12 @@ items:
     max: 4
   - type: confe
     heading: Conferencias recientes
-    content_type: posts
+    content_type: conferencias
     max: 3
   - type: cta
     image: "images/logoanif.png"
     contents: 🌍 Conéctate, aprende y haz la diferencia.
     button:
       contents: Conoce nuestro grupo
-      url: "#"
+      url: "/integrantes"
   

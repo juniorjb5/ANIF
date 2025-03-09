@@ -31,6 +31,27 @@
       <description></description>
     </item>
     <item>
+      <title>Análisis De Riesgo</title>
+      <link>http://localhost:4321/tags/an%C3%A1lisis-de-riesgo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/an%C3%A1lisis-de-riesgo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inversiones</title>
+      <link>http://localhost:4321/tags/inversiones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/inversiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Planeación</title>
+      <link>http://localhost:4321/tags/planeaci%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/planeaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Estrategias</title>
       <link>http://localhost:4321/tags/estrategias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,13 +63,6 @@
       <link>http://localhost:4321/tags/inflaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/inflaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Inversiones</title>
-      <link>http://localhost:4321/tags/inversiones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/inversiones/</guid>
       <description></description>
     </item>
     <item>
@@ -87,6 +101,13 @@
       <description></description>
     </item>
     <item>
+      <title>ANIF</title>
+      <link>http://localhost:4321/tags/anif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/anif/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Content</title>
       <link>http://localhost:4321/tags/content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,6 +119,13 @@
       <link>http://localhost:4321/tags/examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/tags/examples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investigación</title>
+      <link>http://localhost:4321/tags/investigaci%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/investigaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>

@@ -6,7 +6,8 @@ tags:
   - Inversiones  
   - Inflación  
   - Estrategias  
-description: La alta inflación está afectando los mercados globales, obligando a los inversionistas a redefinir sus estrategias para preservar capital y generar rendimientos sostenibles.  
+description: La alta inflación está afectando los mercados globales, obligando a los inversionistas a redefinir sus estrategias para preservar capital y generar rendimientos sostenibles. 
+sidebar_left: sidebar1
 ---
 
 Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.

@@ -9,38 +9,10 @@
     <copyright>© All rights reserved</copyright>
     <atom:link href="http://localhost:4321/tags/examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Conferencias</title>
-      <link>http://localhost:4321/conferencias/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/conferencias/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Quiénes somos</title>
-      <link>http://localhost:4321/left-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/left-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Líneas de Investigación</title>
-      <link>http://localhost:4321/right-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/right-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Integrantes</title>
-      <link>http://localhost:4321/two-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/two-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Grupo de Investigación GIFINC</title>
-      <link>http://localhost:4321/no-sidebar/</link>
+      <link>http://localhost:4321/gifinc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/no-sidebar/</guid>
+      <guid>http://localhost:4321/gifinc/</guid>
       <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
     </item>
   </channel>

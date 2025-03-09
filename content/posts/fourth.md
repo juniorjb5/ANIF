@@ -7,6 +7,7 @@ tags:
   - Tasas de Interés  
   - Mercados Emergentes  
 description: La reciente subida en las tasas de interés está afectando la liquidez y el acceso a capital en los mercados emergentes, generando incertidumbre en los inversionistas. 
+sidebar_left: sidebar1
 ---
 
 Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet

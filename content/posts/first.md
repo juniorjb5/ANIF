@@ -5,6 +5,7 @@ date: "2020-01-01T00:00:00"
 tags:
   - example
   - lorem ipsum
+sidebar_left: sidebar1
 ---
 Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet
 mattis, sed a rutrum accumsan sed. Suspendisse eu.
