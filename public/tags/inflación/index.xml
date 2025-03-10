@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inflación on  </title>
-    <link>http://localhost:4321/tags/inflaci%C3%B3n/</link>
+    <link>//localhost:4321/tags/inflaci%C3%B3n/</link>
     <description>Recent content in Inflación on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/inflaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/tags/inflaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Estrategias de Inversión en Tiempos de Alta Inflación</title>
-      <link>http://localhost:4321/posts/fifth/</link>
+      <link>//localhost:4321/posts/fifth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/fifth/</guid>
+      <guid>//localhost:4321/posts/fifth/</guid>
       <description>&lt;p&gt;Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;El análisis cuantitativo de datos históricos y la modelación predictiva permiten identificar patrones ocultos y correlaciones entre activos, facilitando la construcción de portafolios más resilientes.&lt;/p&gt;&#xA;&lt;p&gt;✅ &lt;strong&gt;Factores Clave:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correlación entre tasas de interés y rendimientos.&lt;/li&gt;&#xA;&lt;li&gt;Impacto de la inflación en los activos de renta fija.&lt;/li&gt;&#xA;&lt;li&gt;Estrategias de cobertura ante escenarios adversos.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

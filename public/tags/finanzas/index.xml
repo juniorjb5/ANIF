@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finanzas on  </title>
-    <link>http://localhost:4321/tags/finanzas/</link>
+    <link>//localhost:4321/tags/finanzas/</link>
     <description>Recent content in Finanzas on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/finanzas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:4321/tags/finanzas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiénes somos</title>
-      <link>http://localhost:4321/quienessomos/</link>
+      <link>//localhost:4321/quienessomos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/quienessomos/</guid>
+      <guid>//localhost:4321/quienessomos/</guid>
       <description>&lt;h2 id=&#34;sobre-el-semillero-de-investigación-anif&#34;&gt;Sobre el Semillero de Investigación ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; nace como una extensión del &lt;strong&gt;Grupo de Investigación en Finanzas Cuantitativas (GIFINC)&lt;/strong&gt;, de la &lt;strong&gt;Escuela de Ingeniería Industrial&lt;/strong&gt; de la Universidad del Valle. ANIF tiene como propósito fomentar la investigación y la formación en áreas estratégicas como la &lt;strong&gt;ingeniería financiera&lt;/strong&gt;, &lt;strong&gt;economía energética&lt;/strong&gt; y &lt;strong&gt;análisis de mercados&lt;/strong&gt;, entre otros.&lt;/p&gt;&#xA;&lt;p&gt;ANIF está diseñado para que los estudiantes puedan desarrollar proyectos de investigación aplicados, fortalecer sus competencias analíticas y técnicas, y contribuir a la generación de conocimiento en temas clave para los mercados financieros y la economía.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roles en el área financiera</title>
-      <link>http://localhost:4321/conferencias/conf1/</link>
+      <link>//localhost:4321/conferencias/conf1/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/conferencias/conf1/</guid>
+      <guid>//localhost:4321/conferencias/conf1/</guid>
       <description>&lt;p&gt;En esta conferencia, &lt;strong&gt;Luis Felipe Ramírez&lt;/strong&gt; compartirá su trayectoria en el área financiera, ofreciendo una visión detallada sobre las diferentes funciones y responsabilidades que se pueden desempeñar en este campo. Desde la planeación financiera y el análisis de riesgos hasta la inversión estratégica, explorará cómo las habilidades analíticas y de negocio son clave para el éxito en roles financieros. También discutirá los desafíos y oportunidades en el sector, brindando consejos prácticos para quienes desean desarrollarse profesionalmente en esta área.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Evaluación de Riesgo Financiero en Mercados Volátiles</title>
-      <link>http://localhost:4321/posts/sixth/</link>
+      <link>//localhost:4321/posts/sixth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/sixth/</guid>
+      <guid>//localhost:4321/posts/sixth/</guid>
       <description>&lt;p&gt;Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;El análisis cuantitativo de datos históricos y la modelación predictiva permiten identificar patrones ocultos y correlaciones entre activos, facilitando la construcción de portafolios más resilientes.&lt;/p&gt;&#xA;&lt;p&gt;✅ &lt;strong&gt;Factores Clave:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correlación entre tasas de interés y rendimientos.&lt;/li&gt;&#xA;&lt;li&gt;Impacto de la inflación en los activos de renta fija.&lt;/li&gt;&#xA;&lt;li&gt;Estrategias de cobertura ante escenarios adversos.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Impacto de las Tasas de Interés en los Mercados Emergentes</title>
-      <link>http://localhost:4321/posts/fourth/</link>
+      <link>//localhost:4321/posts/fourth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/fourth/</guid>
+      <guid>//localhost:4321/posts/fourth/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
   </channel>
