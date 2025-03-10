@@ -1,6 +1,6 @@
 ---
 title: Roles en el área financiera
-image: images/conf1.png
+image: images/conf1.jpeg
 date: "2025-03-19T00:00:00"
 tags:  
   - Finanzas  

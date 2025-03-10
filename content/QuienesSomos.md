@@ -64,7 +64,7 @@ El semillero está diseñado para ser un espacio de aprendizaje e innovación do
 ## Analítica de Datos en Finanzas
 
 
-![](/images/Imagen1.png)
+![](https://juniorjb5.github.io/ANIF/images/Imagen1.png)
 
 
 

@@ -20,9 +20,9 @@
                     text-align: center;
                 ">
                     {{ with .Params.image }}
-                        <img src="{{ . }}" alt="Post image" style="
-                            width: 100px; 
-                            height: 100px; 
+                        <img src="{{ . | relURL }}" alt="Post image" style="
+                            width: 150px; 
+                            height: 150px; 
                             object-fit: cover;
                             border-radius: 8px;
                             margin-bottom: 8px;
@@ -38,3 +38,4 @@
         </div>
     </div>
 </section>
+
