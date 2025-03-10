@@ -1,4 +1,4 @@
-baseURL = "https://juniorjb5.github.io/ANIF/"
+baseURL = "https://juniorjb5.github.io/"
 languageCode = "en-us"
 title = " "
 theme = "hugo-arcana-main"
