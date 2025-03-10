@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inicio on  </title>
-    <link>//localhost:4321/</link>
+    <link>http://localhost:4321/</link>
     <description>Recent content in Inicio on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiénes somos</title>
-      <link>//localhost:4321/quienessomos/</link>
+      <link>http://localhost:4321/quienessomos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/quienessomos/</guid>
+      <guid>http://localhost:4321/quienessomos/</guid>
       <description>&lt;h2 id=&#34;sobre-el-semillero-de-investigación-anif&#34;&gt;Sobre el Semillero de Investigación ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; nace como una extensión del &lt;strong&gt;Grupo de Investigación en Finanzas Cuantitativas (GIFINC)&lt;/strong&gt;, de la &lt;strong&gt;Escuela de Ingeniería Industrial&lt;/strong&gt; de la Universidad del Valle. ANIF tiene como propósito fomentar la investigación y la formación en áreas estratégicas como la &lt;strong&gt;ingeniería financiera&lt;/strong&gt;, &lt;strong&gt;economía energética&lt;/strong&gt; y &lt;strong&gt;análisis de mercados&lt;/strong&gt;, entre otros.&lt;/p&gt;&#xA;&lt;p&gt;ANIF está diseñado para que los estudiantes puedan desarrollar proyectos de investigación aplicados, fortalecer sus competencias analíticas y técnicas, y contribuir a la generación de conocimiento en temas clave para los mercados financieros y la economía.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Integrantes</title>
-      <link>//localhost:4321/integrantes/</link>
+      <link>http://localhost:4321/integrantes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/integrantes/</guid>
-      <description>&lt;h2 id=&#34;profesores&#34;&gt;Profesores&lt;/h2&gt;&#xA;&lt;div style=&#34;display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;&#34;&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;https://juniorjb5.github.io/ANIF/images/Inte1.jpg&#34; &#xD;&#xA;         style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;        &lt;a href=&#34;https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque&#34; &#xD;&#xA;           target=&#34;_blank&#34; &#xD;&#xA;           style=&#34;text-decoration: none; color: inherit;&#34;&gt;&#xD;&#xA;           Diego F. Manotas Duque&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;    &lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;diego.manotas@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;./images/Inte2.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://socioeconomia.univalle.edu.co/economia&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Inés Maria Ulloa&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;ines.ulloa@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;./images/Inte3.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://industrial.univalle.edu.co/profesores/camilo-andres-mican-rincon&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Camilo Andrés Mican&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;camilo.mican@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;./images/Inte4.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://industrial.univalle.edu.co/profesores/12-la-escuela/profesores/178-yessenia-martinez-ruiz&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Yessenia Martinez Ruiz&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;yessenia.martinez@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;./images/Inte6.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.joaquibarandica.com&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Orlando Joaqui Barandica&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:4321/integrantes/</guid>
+      <description>&lt;h2 id=&#34;profesores&#34;&gt;Profesores&lt;/h2&gt;&#xA;&lt;div style=&#34;display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;&#34;&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:4321/images/Inte1.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Diego F. Manotas&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;diego.manotas@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:4321/images/Inte2.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://socioeconomia.univalle.edu.co/economia&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Inés Maria Ulloa&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;ines.ulloa@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:4321/images/Inte3.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://industrial.univalle.edu.co/profesores/camilo-andres-mican-rincon&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Camilo Andrés Mican&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;camilo.mican@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:4321/images/Inte4.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://industrial.univalle.edu.co/profesores/12-la-escuela/profesores/178-yessenia-martinez-ruiz&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Yessenia Martinez Ruiz&lt;/a&gt;&lt;/p&gt;&#xD;&#xA;    &lt;p style=&#34;font-size: 14px; color: #777;&#34;&gt;yessenia.martinez@correounivalle.edu.co&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:4321/images/Inte6.jpg&#34; style=&#34;width: 120px; height: 120px; border-radius: 50%;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;a href=&#34;https://www.joaquibarandica.com&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none; color: inherit;&#34;&gt;Orlando Joaqui Barandica&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grupo de Investigación GIFINC</title>
-      <link>//localhost:4321/gifinc/</link>
+      <link>http://localhost:4321/gifinc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/gifinc/</guid>
+      <guid>http://localhost:4321/gifinc/</guid>
       <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roles en el área financiera</title>
-      <link>//localhost:4321/conferencias/conf1/</link>
+      <link>http://localhost:4321/conferencias/conf1/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/conferencias/conf1/</guid>
+      <guid>http://localhost:4321/conferencias/conf1/</guid>
       <description>&lt;p&gt;En esta conferencia, &lt;strong&gt;Luis Felipe Ramírez&lt;/strong&gt; compartirá su trayectoria en el área financiera, ofreciendo una visión detallada sobre las diferentes funciones y responsabilidades que se pueden desempeñar en este campo. Desde la planeación financiera y el análisis de riesgos hasta la inversión estratégica, explorará cómo las habilidades analíticas y de negocio son clave para el éxito en roles financieros. También discutirá los desafíos y oportunidades en el sector, brindando consejos prácticos para quienes desean desarrollarse profesionalmente en esta área.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estrategias de Inversión en Tiempos de Alta Inflación</title>
-      <link>//localhost:4321/posts/fifth/</link>
+      <link>http://localhost:4321/posts/fifth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/fifth/</guid>
+      <guid>http://localhost:4321/posts/fifth/</guid>
       <description>&lt;p&gt;Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;El análisis cuantitativo de datos históricos y la modelación predictiva permiten identificar patrones ocultos y correlaciones entre activos, facilitando la construcción de portafolios más resilientes.&lt;/p&gt;&#xA;&lt;p&gt;✅ &lt;strong&gt;Factores Clave:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correlación entre tasas de interés y rendimientos.&lt;/li&gt;&#xA;&lt;li&gt;Impacto de la inflación en los activos de renta fija.&lt;/li&gt;&#xA;&lt;li&gt;Estrategias de cobertura ante escenarios adversos.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Evaluación de Riesgo Financiero en Mercados Volátiles</title>
-      <link>//localhost:4321/posts/sixth/</link>
+      <link>http://localhost:4321/posts/sixth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/sixth/</guid>
+      <guid>http://localhost:4321/posts/sixth/</guid>
       <description>&lt;p&gt;Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;El análisis cuantitativo de datos históricos y la modelación predictiva permiten identificar patrones ocultos y correlaciones entre activos, facilitando la construcción de portafolios más resilientes.&lt;/p&gt;&#xA;&lt;p&gt;✅ &lt;strong&gt;Factores Clave:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correlación entre tasas de interés y rendimientos.&lt;/li&gt;&#xA;&lt;li&gt;Impacto de la inflación en los activos de renta fija.&lt;/li&gt;&#xA;&lt;li&gt;Estrategias de cobertura ante escenarios adversos.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Impacto de las Tasas de Interés en los Mercados Emergentes</title>
-      <link>//localhost:4321/posts/fourth/</link>
+      <link>http://localhost:4321/posts/fourth/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/fourth/</guid>
+      <guid>http://localhost:4321/posts/fourth/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Relación entre tasas de interés y deuda soberana en economías emergentes.</title>
-      <link>//localhost:4321/posts/third/</link>
+      <link>http://localhost:4321/posts/third/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/third/</guid>
+      <guid>http://localhost:4321/posts/third/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Second Thing</title>
-      <link>//localhost:4321/posts/second/</link>
+      <link>http://localhost:4321/posts/second/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/second/</guid>
+      <guid>http://localhost:4321/posts/second/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First Thing</title>
-      <link>//localhost:4321/posts/first/</link>
+      <link>http://localhost:4321/posts/first/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/first/</guid>
+      <guid>http://localhost:4321/posts/first/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
   </channel>

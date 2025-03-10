@@ -1,11 +1,10 @@
-baseURL = "https://juniorjb5.github.io/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = " "
 theme = "hugo-arcana-main"
 copyright = "© All rights reserved"
 
 defaultContentLanguage = "es"
-relativeURLs = true
 
 
 [taxonomies]

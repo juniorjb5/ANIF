@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Example on  </title>
-    <link>//localhost:4321/tags/example/</link>
+    <link>http://localhost:4321/tags/example/</link>
     <description>Recent content in Example on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:4321/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Relación entre tasas de interés y deuda soberana en economías emergentes.</title>
-      <link>//localhost:4321/posts/third/</link>
+      <link>http://localhost:4321/posts/third/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/third/</guid>
+      <guid>http://localhost:4321/posts/third/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Second Thing</title>
-      <link>//localhost:4321/posts/second/</link>
+      <link>http://localhost:4321/posts/second/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/second/</guid>
+      <guid>http://localhost:4321/posts/second/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First Thing</title>
-      <link>//localhost:4321/posts/first/</link>
+      <link>http://localhost:4321/posts/first/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/posts/first/</guid>
+      <guid>http://localhost:4321/posts/first/</guid>
       <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
   </channel>
