@@ -12,7 +12,7 @@ defaultContentLanguage = "es"
 
 [params]
     description = "Analítica e Ingeniería Financiera"
-    images = ['images/logoanif.png']
+    images = ['https://juniorjb5.github.io/ANIF/images/logoanif.png']
     show_post_dates = false
 
     [[params.social]]
