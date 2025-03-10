@@ -1,7 +1,7 @@
 ---
 title: Evaluación de Riesgo Financiero en Mercados Volátiles
 image: images/pic02.jpg
-date: "2025-03-10T00:00:00"
+date: "2025-03-08T00:00:00"
 tags:
   - Finanzas
   - Mercados

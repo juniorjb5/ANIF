@@ -1,7 +1,7 @@
 ---
 title: Estrategias de Inversión en Tiempos de Alta Inflación  
 image: images/pic02.jpg  
-date: "2025-03-15T00:00:00"  
+date: "2025-03-08T00:00:00"  
 tags:  
   - Inversiones  
   - Inflación  

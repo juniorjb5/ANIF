@@ -1,7 +1,7 @@
 ---
 title: Impacto de las Tasas de Interés en los Mercados Emergentes  
 image: images/pic02.jpg  
-date: "2025-03-20T00:00:00"  
+date: "2025-03-08T00:00:00"  
 tags:  
   - Finanzas  
   - Tasas de Interés  
