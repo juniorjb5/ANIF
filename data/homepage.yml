@@ -33,9 +33,9 @@ items:
     content_type: conferencias
     max: 3
   - type: cta
-    image: "images/logoanif.png"
+    image: "https://juniorjb5.github.io/ANIF/images/logoanif.png"
     contents: 🌍 Conéctate, aprende y haz la diferencia.
     button:
       contents: Conoce nuestro grupo
-      url: "/integrantes"
+      url: "ANIF/integrantes"
   
