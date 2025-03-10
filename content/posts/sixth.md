@@ -1,6 +1,6 @@
 ---
 title: Evaluación de Riesgo Financiero en Mercados Volátiles
-image: images/pic02.jpg
+image: "https://juniorjb5.github.io/ANIF/images/pic01.jpg"
 date: "2025-03-08T00:00:00"
 tags:
   - Finanzas
@@ -20,4 +20,8 @@ El análisis cuantitativo de datos históricos y la modelación predictiva permi
 - Correlación entre tasas de interés y rendimientos.  
 - Impacto de la inflación en los activos de renta fija.  
 - Estrategias de cobertura ante escenarios adversos.  
+
+
+
+
 

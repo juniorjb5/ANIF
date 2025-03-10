@@ -15,14 +15,7 @@ defaultContentLanguage = "es"
     images = ['https://juniorjb5.github.io/ANIF/images/logoanif.png']
     show_post_dates = false
 
-    [[params.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        url = "#"
-    [[params.social]]
-        title = "Facebook"
-        icon = "fa-facebook-f"
-        url = "#"
+    
     [[params.social]]
         title = "GitHub"
         icon = "fa-github"
@@ -31,10 +24,7 @@ defaultContentLanguage = "es"
         title = "LinkedIn"
         icon = "fa-linkedin-in"
         url = "#"
-    [[params.social]]
-        title = "Creative Commons"
-        icon = "fa-creative-commons"
-        url = "https://creativecommons.org/"
+    
 
 
 

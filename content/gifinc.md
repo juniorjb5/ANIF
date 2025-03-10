@@ -6,7 +6,7 @@ weight: 40
 image: images/banner.jpg
 image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
-sidebar_left: sidebar1
+sidebar_left: sidebar1gifinc
 sidebar_right: sidebar2
 ---
 Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.

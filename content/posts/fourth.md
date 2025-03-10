@@ -1,6 +1,6 @@
 ---
 title: Impacto de las Tasas de Interés en los Mercados Emergentes  
-image: images/pic02.jpg  
+image: "https://juniorjb5.github.io/ANIF/images/pic03.jpg"
 date: "2025-03-08T00:00:00"  
 tags:  
   - Finanzas  
