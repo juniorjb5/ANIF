@@ -19,38 +19,38 @@ slug: "integrantes"
 
 
 <div style="text-align: center;">
-    <img src="/images/Inte1.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte1.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque" target="_blank" style="text-decoration: none; color: inherit;">Diego F. Manotas</a></p>
     <p style="font-size: 14px; color: #777;">diego.manotas@correounivalle.edu.co</p>
 </div>
 
 
 <div style="text-align: center;">
-    <img src="/images/Inte2.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte2.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://socioeconomia.univalle.edu.co/economia" target="_blank" style="text-decoration: none; color: inherit;">Inés Maria Ulloa</a></p>
     <p style="font-size: 14px; color: #777;">ines.ulloa@correounivalle.edu.co</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="/images/Inte3.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte3.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://industrial.univalle.edu.co/profesores/camilo-andres-mican-rincon" target="_blank" style="text-decoration: none; color: inherit;">Camilo Andrés Mican</a></p>
     <p style="font-size: 14px; color: #777;">camilo.mican@correounivalle.edu.co</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="/images/Inte4.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte4.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://industrial.univalle.edu.co/profesores/12-la-escuela/profesores/178-yessenia-martinez-ruiz" target="_blank" style="text-decoration: none; color: inherit;">Yessenia Martinez Ruiz</a></p>
     <p style="font-size: 14px; color: #777;">yessenia.martinez@correounivalle.edu.co</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="/images/Inte6.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte6.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://www.joaquibarandica.com" target="_blank" style="text-decoration: none; color: inherit;">Orlando Joaqui Barandica</a></p>
     <p style="font-size: 14px; color: #777;">orlando.joaqui@correounivalle.edu.co</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="/images/Inte5.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte5.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://industrial.univalle.edu.co/" target="_blank" style="text-decoration: none; color: inherit;">Eduar Aguirre Gonzalez</a></p>
     <p style="font-size: 14px; color: #777;">eduar.f.aguirre@correounivalle.edu.co</p>
 </div>
@@ -64,7 +64,7 @@ slug: "integrantes"
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
 <div style="text-align: center;">
-    <img src="/images/Inte7.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte7.jpg" style="width: 120px; height: 120px; border-radius: 50%;">
     <p><a href="https://jorgemuribe.wordpress.com/" target="_blank" style="text-decoration: none; color: inherit;">Jorge Mario Uribe Gil</a></p>
     <p style="font-size: 14px; color: #777;">juribeg@uoc.edu</p>
 </div>
@@ -115,6 +115,6 @@ slug: "integrantes"
 
 
 <div style="text-align: center; margin-top: 40px;">
-    <img src="/images/logoanif.png" alt="Logo ANIF" style="width: 150px; height: auto;">
+    <img src="https://juniorjb5.github.io/ANIF/images/logoanif.png" alt="Logo ANIF" style="width: 150px; height: auto;">
 </div>
 

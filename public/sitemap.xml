@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/</loc>
+    <loc>http://localhost:4321/ANIF/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/quienessomos/</loc>
+    <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
-    <loc>http://localhost:4321/posts/</loc>
+    <loc>http://localhost:4321/ANIF/posts/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/conferencias/</loc>
+    <loc>http://localhost:4321/ANIF/conferencias/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/integrantes/</loc>
+    <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
-    <loc>http://localhost:4321/gifinc/</loc>
+    <loc>http://localhost:4321/ANIF/gifinc/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/an%C3%A1lisis-de-riesgo/</loc>
+    <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/finanzas/</loc>
+    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/inversiones/</loc>
+    <loc>http://localhost:4321/ANIF/tags/inversiones/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/planeaci%C3%B3n/</loc>
+    <loc>http://localhost:4321/ANIF/tags/planeaci%C3%B3n/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/conferencias/conf1/</loc>
+    <loc>http://localhost:4321/ANIF/conferencias/conf1/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/estrategias/</loc>
+    <loc>http://localhost:4321/ANIF/tags/estrategias/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/fifth/</loc>
+    <loc>http://localhost:4321/ANIF/posts/fifth/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/sixth/</loc>
+    <loc>http://localhost:4321/ANIF/posts/sixth/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/fourth/</loc>
+    <loc>http://localhost:4321/ANIF/posts/fourth/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/inflaci%C3%B3n/</loc>
+    <loc>http://localhost:4321/ANIF/tags/inflaci%C3%B3n/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/mercados/</loc>
+    <loc>http://localhost:4321/ANIF/tags/mercados/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/mercados-emergentes/</loc>
+    <loc>http://localhost:4321/ANIF/tags/mercados-emergentes/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/riesgo/</loc>
+    <loc>http://localhost:4321/ANIF/tags/riesgo/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/tasas-de-inter%C3%A9s/</loc>
+    <loc>http://localhost:4321/ANIF/tags/tasas-de-inter%C3%A9s/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/duis-neque/</loc>
+    <loc>http://localhost:4321/ANIF/tags/duis-neque/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/example/</loc>
+    <loc>http://localhost:4321/ANIF/tags/example/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/third/</loc>
+    <loc>http://localhost:4321/ANIF/posts/third/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/second/</loc>
+    <loc>http://localhost:4321/ANIF/posts/second/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/lorem-ipsum/</loc>
+    <loc>http://localhost:4321/ANIF/tags/lorem-ipsum/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/posts/first/</loc>
+    <loc>http://localhost:4321/ANIF/posts/first/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/anif/</loc>
+    <loc>http://localhost:4321/ANIF/tags/anif/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/content/</loc>
+    <loc>http://localhost:4321/ANIF/tags/content/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/examples/</loc>
+    <loc>http://localhost:4321/ANIF/tags/examples/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/investigaci%C3%B3n/</loc>
+    <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/sidebar/</loc>
+    <loc>http://localhost:4321/ANIF/tags/sidebar/</loc>
   </url>
 </urlset>

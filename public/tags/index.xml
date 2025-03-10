@@ -2,137 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on  </title>
-    <link>http://localhost:4321/tags/</link>
+    <link>http://localhost:4321/ANIF/tags/</link>
     <description>Recent content in Tags on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Análisis De Riesgo</title>
-      <link>http://localhost:4321/tags/an%C3%A1lisis-de-riesgo/</link>
+      <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/an%C3%A1lisis-de-riesgo/</guid>
+      <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</guid>
       <description></description>
     </item>
     <item>
       <title>Finanzas</title>
-      <link>http://localhost:4321/tags/finanzas/</link>
+      <link>http://localhost:4321/ANIF/tags/finanzas/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/finanzas/</guid>
+      <guid>http://localhost:4321/ANIF/tags/finanzas/</guid>
       <description></description>
     </item>
     <item>
       <title>Inversiones</title>
-      <link>http://localhost:4321/tags/inversiones/</link>
+      <link>http://localhost:4321/ANIF/tags/inversiones/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/inversiones/</guid>
+      <guid>http://localhost:4321/ANIF/tags/inversiones/</guid>
       <description></description>
     </item>
     <item>
       <title>Planeación</title>
-      <link>http://localhost:4321/tags/planeaci%C3%B3n/</link>
+      <link>http://localhost:4321/ANIF/tags/planeaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/planeaci%C3%B3n/</guid>
+      <guid>http://localhost:4321/ANIF/tags/planeaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Estrategias</title>
-      <link>http://localhost:4321/tags/estrategias/</link>
+      <link>http://localhost:4321/ANIF/tags/estrategias/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/estrategias/</guid>
+      <guid>http://localhost:4321/ANIF/tags/estrategias/</guid>
       <description></description>
     </item>
     <item>
       <title>Inflación</title>
-      <link>http://localhost:4321/tags/inflaci%C3%B3n/</link>
+      <link>http://localhost:4321/ANIF/tags/inflaci%C3%B3n/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/inflaci%C3%B3n/</guid>
+      <guid>http://localhost:4321/ANIF/tags/inflaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Mercados</title>
-      <link>http://localhost:4321/tags/mercados/</link>
+      <link>http://localhost:4321/ANIF/tags/mercados/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mercados/</guid>
+      <guid>http://localhost:4321/ANIF/tags/mercados/</guid>
       <description></description>
     </item>
     <item>
       <title>Mercados Emergentes</title>
-      <link>http://localhost:4321/tags/mercados-emergentes/</link>
+      <link>http://localhost:4321/ANIF/tags/mercados-emergentes/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/mercados-emergentes/</guid>
+      <guid>http://localhost:4321/ANIF/tags/mercados-emergentes/</guid>
       <description></description>
     </item>
     <item>
       <title>Riesgo</title>
-      <link>http://localhost:4321/tags/riesgo/</link>
+      <link>http://localhost:4321/ANIF/tags/riesgo/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/riesgo/</guid>
+      <guid>http://localhost:4321/ANIF/tags/riesgo/</guid>
       <description></description>
     </item>
     <item>
       <title>Tasas De Interés</title>
-      <link>http://localhost:4321/tags/tasas-de-inter%C3%A9s/</link>
+      <link>http://localhost:4321/ANIF/tags/tasas-de-inter%C3%A9s/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/tasas-de-inter%C3%A9s/</guid>
+      <guid>http://localhost:4321/ANIF/tags/tasas-de-inter%C3%A9s/</guid>
       <description></description>
     </item>
     <item>
       <title>Duis Neque</title>
-      <link>http://localhost:4321/tags/duis-neque/</link>
+      <link>http://localhost:4321/ANIF/tags/duis-neque/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/duis-neque/</guid>
+      <guid>http://localhost:4321/ANIF/tags/duis-neque/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
-      <link>http://localhost:4321/tags/example/</link>
+      <link>http://localhost:4321/ANIF/tags/example/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/example/</guid>
+      <guid>http://localhost:4321/ANIF/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://localhost:4321/tags/lorem-ipsum/</link>
+      <link>http://localhost:4321/ANIF/tags/lorem-ipsum/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/lorem-ipsum/</guid>
+      <guid>http://localhost:4321/ANIF/tags/lorem-ipsum/</guid>
       <description></description>
     </item>
     <item>
       <title>ANIF</title>
-      <link>http://localhost:4321/tags/anif/</link>
+      <link>http://localhost:4321/ANIF/tags/anif/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/anif/</guid>
+      <guid>http://localhost:4321/ANIF/tags/anif/</guid>
       <description></description>
     </item>
     <item>
       <title>Content</title>
-      <link>http://localhost:4321/tags/content/</link>
+      <link>http://localhost:4321/ANIF/tags/content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/content/</guid>
+      <guid>http://localhost:4321/ANIF/tags/content/</guid>
       <description></description>
     </item>
     <item>
       <title>Examples</title>
-      <link>http://localhost:4321/tags/examples/</link>
+      <link>http://localhost:4321/ANIF/tags/examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/examples/</guid>
+      <guid>http://localhost:4321/ANIF/tags/examples/</guid>
       <description></description>
     </item>
     <item>
       <title>Investigación</title>
-      <link>http://localhost:4321/tags/investigaci%C3%B3n/</link>
+      <link>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/investigaci%C3%B3n/</guid>
+      <guid>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Sidebar</title>
-      <link>http://localhost:4321/tags/sidebar/</link>
+      <link>http://localhost:4321/ANIF/tags/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/tags/sidebar/</guid>
+      <guid>http://localhost:4321/ANIF/tags/sidebar/</guid>
       <description></description>
     </item>
   </channel>
