@@ -12,8 +12,9 @@ defaultContentLanguage = "es"
 
 [params]
     description = "Analítica e Ingeniería Financiera"
-    images = ['https://juniorjb5.github.io/ANIF/images/logoanif.png']
+    images = ['https://juniorjb5.github.io/ANIF/images/favicon.png']
     show_post_dates = false
+    favicon = ["/images/favicon.png"]
 
     
     [[params.social]]
@@ -58,6 +59,8 @@ defaultContentLanguage = "es"
             header = "Contáctanos"
             action = ""
 
+
+  
 
 [markup]
   [markup.goldmark]
