@@ -15,5 +15,12 @@
       <guid>http://localhost:4321/ANIF/quienessomos/</guid>
       <description>&lt;h2 id=&#34;sobre-el-semillero-de-investigación-anif&#34;&gt;Sobre el Semillero de Investigación ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; nace como una extensión del &lt;strong&gt;Grupo de Investigación en Finanzas Cuantitativas (GIFINC)&lt;/strong&gt;, de la &lt;strong&gt;Escuela de Ingeniería Industrial&lt;/strong&gt; de la Universidad del Valle. ANIF tiene como propósito fomentar la investigación y la formación en áreas estratégicas como la &lt;strong&gt;ingeniería financiera&lt;/strong&gt;, &lt;strong&gt;economía energética&lt;/strong&gt; y &lt;strong&gt;análisis de mercados&lt;/strong&gt;, entre otros.&lt;/p&gt;&#xA;&lt;p&gt;ANIF está diseñado para que los estudiantes puedan desarrollar proyectos de investigación aplicados, fortalecer sus competencias analíticas y técnicas, y contribuir a la generación de conocimiento en temas clave para los mercados financieros y la economía.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Grupo de Investigación GIFINC</title>
+      <link>http://localhost:4321/ANIF/gifinc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/gifinc/</guid>
+      <description>&lt;h3 id=&#34;nuestra-misión-innovación-y-excelencia-en-finanzas-cuantitativas&#34;&gt;Nuestra Misión: Innovación y Excelencia en Finanzas Cuantitativas&lt;/h3&gt;&#xA;&lt;p&gt;En GIFINC, estamos comprometidos con la generación de conocimiento que impulse la evolución de los mercados financieros. Nuestra estrategia se centra en:&lt;/p&gt;&#xA;&lt;p&gt;🔍 Explorar y desarrollar nuevos enfoques en finanzas cuantitativas, combinando metodología, teoría y aplicación práctica.&lt;/p&gt;&#xA;&lt;p&gt;📚 Publicar y compartir investigaciones en revistas científicas de alto impacto en energía, finanzas, economía y administración.&lt;/p&gt;&#xA;&lt;p&gt;🎓 Impulsar la educación con programas académicos de pregrado y posgrado de excelencia en la Universidad del Valle.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIFINC on  </title>
+    <link>http://localhost:4321/ANIF/tags/gifinc/</link>
+    <description>Recent content in GIFINC on  </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© All rights reserved</copyright>
+    <atom:link href="http://localhost:4321/ANIF/tags/gifinc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grupo de Investigación GIFINC</title>
+      <link>http://localhost:4321/ANIF/gifinc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/gifinc/</guid>
+      <description>&lt;h3 id=&#34;nuestra-misión-innovación-y-excelencia-en-finanzas-cuantitativas&#34;&gt;Nuestra Misión: Innovación y Excelencia en Finanzas Cuantitativas&lt;/h3&gt;&#xA;&lt;p&gt;En GIFINC, estamos comprometidos con la generación de conocimiento que impulse la evolución de los mercados financieros. Nuestra estrategia se centra en:&lt;/p&gt;&#xA;&lt;p&gt;🔍 Explorar y desarrollar nuevos enfoques en finanzas cuantitativas, combinando metodología, teoría y aplicación práctica.&lt;/p&gt;&#xA;&lt;p&gt;📚 Publicar y compartir investigaciones en revistas científicas de alto impacto en energía, finanzas, economía y administración.&lt;/p&gt;&#xA;&lt;p&gt;🎓 Impulsar la educación con programas académicos de pregrado y posgrado de excelencia en la Universidad del Valle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

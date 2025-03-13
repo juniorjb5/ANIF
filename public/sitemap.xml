@@ -82,12 +82,8 @@
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/anif/</loc>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/content/</loc>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/examples/</loc>
+    <loc>http://localhost:4321/ANIF/tags/gifinc/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/sidebar/</loc>
   </url>
 </urlset>
