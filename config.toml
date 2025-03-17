@@ -24,7 +24,7 @@ defaultContentLanguage = "es"
     [[params.social]]
         title = "LinkedIn"
         icon = "fa-linkedin-in"
-        url = "#"
+        url = "https://www.linkedin.com/in/semillero-de-investigaci%C3%B3n-anif-48b71b356/"
     
 
 
