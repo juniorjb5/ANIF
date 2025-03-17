@@ -44,7 +44,10 @@ En un artículo recientemente publicado en Energy Economics,los profesores Steph
 
 [Link Paper: https://doi.org/10.1016/j.eneco.2024.107789](https://doi.org/10.1016/j.eneco.2024.107789)
 
-![](https://juniorjb5.github.io/ANIF/images/post01_1.png)
+
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post01_1.jpg"  width="800">
+</div>
 
 
 ## Reflexión y Relevancia para la Industria
