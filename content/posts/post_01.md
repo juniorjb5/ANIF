@@ -9,7 +9,7 @@ tags:
   - Análisis de Riesgo
   - Energía Renovable
 description: En un entorno de creciente incertidumbre climática y volatilidad de los mercados, la comprensión de las dinámicas entre las condiciones meteorológicas y los precios de la electricidad se ha convertido en una necesidad estratégica para la estabilidad económica y energética.
-sidebar_left: sidebar1
+sidebar_left: sidebar1_post01
 ---
 
 En un entorno de creciente incertidumbre climática y volatilidad de los mercados, la comprensión de las dinámicas entre las condiciones meteorológicas y los precios de la electricidad se ha convertido en una necesidad estratégica para la estabilidad económica y energética. En el Semillero de Investigación en Analítica e Ingeniería Financiera tenemos el propósito de comunicar a nuestros estudiantes y la comunidad cómo desde la investigación se pueden abordar estos desafíos mediante el uso de herramientas analíticas y financieras avanzadas que permitan modelar y anticipar el comportamiento de los mercados en un contexto de creciente complejidad.
