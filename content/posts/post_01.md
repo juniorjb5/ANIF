@@ -1,5 +1,5 @@
 ---
-title: "Condiciones Climáticas y Precios de la Electricidad: El Papel de la Analítica y las Finanzas"
+title: "Condiciones climáticas y precios de la electricidad: El papel de la analítica y las finanzas"
 image: "https://juniorjb5.github.io/ANIF/images/post01.jpg"
 date: "2025-03-17T00:00:00"
 tags:

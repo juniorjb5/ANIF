@@ -31,14 +31,14 @@
       <description>&lt;h3 id=&#34;nuestra-misión-innovación-y-excelencia-en-finanzas-cuantitativas&#34;&gt;Nuestra Misión: Innovación y Excelencia en Finanzas Cuantitativas&lt;/h3&gt;&#xA;&lt;p&gt;En GIFINC, estamos comprometidos con la generación de conocimiento que impulse la evolución de los mercados financieros. Nuestra estrategia se centra en:&lt;/p&gt;&#xA;&lt;p&gt;🔍 Explorar y desarrollar nuevos enfoques en finanzas cuantitativas, combinando metodología, teoría y aplicación práctica.&lt;/p&gt;&#xA;&lt;p&gt;📚 Publicar y compartir investigaciones en revistas científicas de alto impacto en energía, finanzas, economía y administración.&lt;/p&gt;&#xA;&lt;p&gt;🎓 Impulsar la educación con programas académicos de pregrado y posgrado de excelencia en la Universidad del Valle.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Condiciones Climáticas y Precios de la Electricidad: El Papel de la Analítica y las Finanzas</title>
+      <title>Condiciones climáticas y precios de la electricidad: El papel de la analítica y las finanzas</title>
       <link>http://localhost:4321/ANIF/posts/post_01/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/posts/post_01/</guid>
       <description>&lt;p&gt;En un entorno de creciente incertidumbre climática y volatilidad de los mercados, la comprensión de las dinámicas entre las condiciones meteorológicas y los precios de la electricidad se ha convertido en una necesidad estratégica para la estabilidad económica y energética. En el Semillero de Investigación en Analítica e Ingeniería Financiera tenemos el propósito de comunicar a nuestros estudiantes y la comunidad cómo desde la investigación se pueden abordar estos desafíos mediante el uso de herramientas analíticas y financieras avanzadas que permitan modelar y anticipar el comportamiento de los mercados en un contexto de creciente complejidad.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado</title>
+      <title>Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado</title>
       <link>http://localhost:4321/ANIF/posts/post_02/</link>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/posts/post_02/</guid>
@@ -50,34 +50,6 @@
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/conferencias/conf1/</guid>
       <description>&lt;p&gt;En esta conferencia, &lt;strong&gt;Luis Felipe Ramírez&lt;/strong&gt; compartirá su trayectoria en el área financiera, ofreciendo una visión detallada sobre las diferentes funciones y responsabilidades que se pueden desempeñar en este campo. Desde la planeación financiera y el análisis de riesgos hasta la inversión estratégica, explorará cómo las habilidades analíticas y de negocio son clave para el éxito en roles financieros. También discutirá los desafíos y oportunidades en el sector, brindando consejos prácticos para quienes desean desarrollarse profesionalmente en esta área.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Estrategias de Inversión en Tiempos de Alta Inflación</title>
-      <link>http://localhost:4321/ANIF/posts/fifth/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/fifth/</guid>
-      <description>&lt;p&gt;Los mercados financieros están experimentando una alta volatilidad debido a factores macroeconómicos y geopolíticos. La capacidad de evaluar y modelar el riesgo de manera precisa es crucial para la toma de decisiones estratégicas.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;El análisis cuantitativo de datos históricos y la modelación predictiva permiten identificar patrones ocultos y correlaciones entre activos, facilitando la construcción de portafolios más resilientes.&lt;/p&gt;&#xA;&lt;p&gt;✅ &lt;strong&gt;Factores Clave:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Correlación entre tasas de interés y rendimientos.&lt;/li&gt;&#xA;&lt;li&gt;Impacto de la inflación en los activos de renta fija.&lt;/li&gt;&#xA;&lt;li&gt;Estrategias de cobertura ante escenarios adversos.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Impacto de las Tasas de Interés en los Mercados Emergentes</title>
-      <link>http://localhost:4321/ANIF/posts/fourth/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/fourth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Relación entre tasas de interés y deuda soberana en economías emergentes.</title>
-      <link>http://localhost:4321/ANIF/posts/third/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/third/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Second Thing</title>
-      <link>http://localhost:4321/ANIF/posts/second/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/second/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

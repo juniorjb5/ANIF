@@ -2,19 +2,19 @@
 <html lang="es">
     <head><script src="/ANIF/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=ANIF/livereload" data-no-instant defer></script>
 
-<title>Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado |  </title>
+<title>Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado |  </title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/ANIF/style.css" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
-  <meta name="twitter:title" content="Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado">
-  <meta name="twitter:description" content="Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios. Para comprender estos patrones, analizamos a 9,000 titulares activos mediante 17 variables clave, aplicando técnicas de segmentación. Esto nos permitió identificar grupos de usuarios con comportamientos similares, simplificando el análisis sin perder información valiosa.">
+  <meta name="twitter:title" content="Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado">
+  <meta name="twitter:description" content="Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios.">
 <meta property="og:url" content="http://localhost:4321/ANIF/posts/post_02/">
   <meta property="og:site_name" content=" ">
-  <meta property="og:title" content="Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado">
-  <meta property="og:description" content="Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios. Para comprender estos patrones, analizamos a 9,000 titulares activos mediante 17 variables clave, aplicando técnicas de segmentación. Esto nos permitió identificar grupos de usuarios con comportamientos similares, simplificando el análisis sin perder información valiosa.">
+  <meta property="og:title" content="Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado">
+  <meta property="og:description" content="Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -155,8 +155,8 @@
                             <div id="content">
                                 <article>
     <header>
-        <h2>Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado</h2>
-        <p></p>
+        <h2>Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado</h2>
+        <p>Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios.</p>
         
         <ul class="tags"><li><a href="/ANIF/tags/aprendizaje-no-supervisado/">Aprendizaje No Supervisado</a><li><a href="/ANIF/tags/machine-learning/">Machine Learning</a><li><a href="/ANIF/tags/an%C3%A1lisis-de-cl%C3%BAsteres/">Análisis De Clústeres</a><li><a href="/ANIF/tags/tarjetas-de-cr%C3%A9dito/">Tarjetas De Crédito</a>
 </ul>
@@ -273,7 +273,9 @@
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">corrplot</span>(<span style="color:#a6e22e">cor</span>(Datos), type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;upper&#34;</span>, method<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ellipse&#34;</span>, tl.cex<span style="color:#f92672">=</span><span style="color:#ae81ff">0.9</span>)
 </span></span></code></pre></div></details>
 <p>La figura muestra la correlación entre todas las variables de la base de datos</p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_1.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_1.png"  width="400">
+</div>
 <details>
   <summary><strong>Ver Código</strong></summary>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># Componentes: Varianza explicada</span>
@@ -307,7 +309,9 @@
   </tbody>
 </table>
 <p>El criterio de Kaiser recomienda seleccionar 5 componentes. Sin embargo, el valor de los valores propios entre los componentes 3, 4 y 5 no varía mucho en comparación con los 2 primeros componentes. Ante esta observación, se decidió trazar un diagrama de barras con el porcentaje de varianza o explicación aportado por cada componente, con el fin de tener una visión más amplia y detallada de la elección de los componentes</p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_2.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_2.png"  width="800">
+</div>
 <p>El gráfico muestra un comportamiento interesante, los componentes 3, 4 y 5 sí cumplen con el criterio de Kaiser como se mencionó anteriormente, pero entre estos el porcentaje de información explicada no tiene mucha diferencia, por lo que se puede decir que hay ruido entre ellos. . Por esta razón, se decidió utilizar 3 componentes, es decir, tenemos un porcentaje de varianza de aproximadamente 56.5% para nuestro análisis.</p>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; text-align: center; border-radius: 8px; overflow: hidden; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);">
   <thead>
@@ -437,8 +441,12 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">View</span>(res.ind<span style="color:#f92672">$</span>contrib[,<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">3</span>]) <span style="color:#75715e"># Miro los tres primeros factores</span>
 </span></span></code></pre></div></details>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_3.png" alt=""></p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_4.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_3.png"  width="800">
+</div>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_4.png"  width="800">
+</div>
 <details>
   <summary><strong>Ver Código</strong></summary>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>resultado_ACP<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">FactoClass</span>(Datos,dudi.pca)
@@ -520,11 +528,17 @@
 </span></span><span style="display:flex;"><span>resultado_ACP<span style="color:#f92672">$</span>carac.cont 
 </span></span></code></pre></div></details>
 <p><strong>Dendogram</strong></p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_5.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_5.png"  width="800">
+</div>
 <p><strong>PC1 vs PC2</strong></p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_6.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_6.png"  width="800">
+</div>
 <p><strong>PC1 vs PC3</strong></p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_7.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_7.png"  width="800">
+</div>
 <p><strong>Caracterización de las clases</strong></p>
 <details>
   <summary><strong>Ver Código</strong></summary>
@@ -743,7 +757,9 @@
 </span></span></code></pre></div></details>
 <p>Conseguimos clasificar a los clientes en clases en función de sus características en el uso de la tarjeta de crédito. Sin embargo, la institución bancaria no siempre tendrá el mismo número de clientes y estos no siempre presentarán el mismo comportamiento, por lo tanto, es necesario que el modelo creado tenga la capacidad de predecir a qué grupo debe pertenecer un cliente con nuevas características de gestión en cuanto al uso de su tarjeta de crédito.</p>
 <p>Dicho esto, se realizó una prueba de clasificación con 5 clientes sin grupo, para evaluar la eficacia del modelo en el momento de la catalogación. Esta prueba se realiza gráficamente, incorporando nuevos clientes representados por puntos morados en los planos previamente diseñados en el gráfico 4; Cabe mencionar que se conoce el valor de las variables características de los cinco clientes con respecto al uso de su tarjeta de crédito.</p>
-<p><img src="https://juniorjb5.github.io/ANIF/images/post02_8.png" alt=""></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_8.png"  width="800">
+</div>
 <p>La visualización de los nuevos clientes en los grupos se ilustra mejor en el plano compuesto por los componentes 1 y 2, por lo que el análisis principal se realizó con este plano. Ahora bien, entre estos 5 clientes, el modelo clasificó a 3 de ellos como miembros del grupo 2 (clientes inactivos), y al resto como miembros del grupo 3 (clientes activos).</p>
 <h3 id="aprendizaje-supervisado">Aprendizaje supervisado</h3>
 <p>Realizamos un análisis supervisado utilizando la clasificación fundada en la agrupación. Utilizamos el 75% de los datos como entrenamiento y el 25% como prueba.</p>

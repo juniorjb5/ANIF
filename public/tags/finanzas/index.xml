@@ -23,12 +23,5 @@
       <guid>http://localhost:4321/ANIF/conferencias/conf1/</guid>
       <description>&lt;p&gt;En esta conferencia, &lt;strong&gt;Luis Felipe Ramírez&lt;/strong&gt; compartirá su trayectoria en el área financiera, ofreciendo una visión detallada sobre las diferentes funciones y responsabilidades que se pueden desempeñar en este campo. Desde la planeación financiera y el análisis de riesgos hasta la inversión estratégica, explorará cómo las habilidades analíticas y de negocio son clave para el éxito en roles financieros. También discutirá los desafíos y oportunidades en el sector, brindando consejos prácticos para quienes desean desarrollarse profesionalmente en esta área.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Impacto de las Tasas de Interés en los Mercados Emergentes</title>
-      <link>http://localhost:4321/ANIF/posts/fourth/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/fourth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

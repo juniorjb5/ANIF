@@ -1,5 +1,5 @@
 ---
-title: Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado
+title: Segmentación de clientes de tarjetas de crédito - Aprendizaje supervisado y no supervisado
 image: "https://juniorjb5.github.io/ANIF/images/post02.jpg"
 date: "2025-03-15T00:00:00"
 tags:
@@ -8,9 +8,10 @@ tags:
   - Análisis de Clústeres
   - Tarjetas de Crédito
 sidebar_left: sidebar1_post02
+description: Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios.
 mermaid: true
-
 ---
+
 Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios. Para comprender estos patrones, analizamos a 9,000 titulares activos mediante 17 variables clave, aplicando técnicas de segmentación. Esto nos permitió identificar grupos de usuarios con comportamientos similares, simplificando el análisis sin perder información valiosa.
 <!-- more -->
 
@@ -140,7 +141,11 @@ corrplot(cor(Datos), type="upper", method="ellipse", tl.cex=0.9)
 
 La figura muestra la correlación entre todas las variables de la base de datos
 
-![](https://juniorjb5.github.io/ANIF/images/post02_1.png)
+
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_1.png"  width="400">
+</div>
+
 
 
 <details>
@@ -189,7 +194,10 @@ Existen diferentes variedades de criterios que ayudan a seleccionar el número d
 El criterio de Kaiser recomienda seleccionar 5 componentes. Sin embargo, el valor de los valores propios entre los componentes 3, 4 y 5 no varía mucho en comparación con los 2 primeros componentes. Ante esta observación, se decidió trazar un diagrama de barras con el porcentaje de varianza o explicación aportado por cada componente, con el fin de tener una visión más amplia y detallada de la elección de los componentes
 
 
-![](https://juniorjb5.github.io/ANIF/images/post02_2.png)
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_2.png"  width="800">
+</div>
+
 
 El gráfico muestra un comportamiento interesante, los componentes 3, 4 y 5 sí cumplen con el criterio de Kaiser como se mencionó anteriormente, pero entre estos el porcentaje de información explicada no tiene mucha diferencia, por lo que se puede decir que hay ruido entre ellos. . Por esta razón, se decidió utilizar 3 componentes, es decir, tenemos un porcentaje de varianza de aproximadamente 56.5% para nuestro análisis.
 
@@ -339,9 +347,15 @@ View(res.ind$contrib[,1:3]) # Miro los tres primeros factores
 
 </details>
 
-![](https://juniorjb5.github.io/ANIF/images/post02_3.png)
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_3.png"  width="800">
+</div>
 
-![](https://juniorjb5.github.io/ANIF/images/post02_4.png)
+
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_4.png"  width="800">
+</div>
+
 
 
 <details>
@@ -433,16 +447,25 @@ resultado_ACP$carac.cont
 
 **Dendogram**
 
-![](https://juniorjb5.github.io/ANIF/images/post02_5.png)
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_5.png"  width="800">
+</div>
+
 
 **PC1 vs PC2**
 
-![](https://juniorjb5.github.io/ANIF/images/post02_6.png)
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_6.png"  width="800">
+</div>
+
 
 
 **PC1 vs PC3**
 
-![](https://juniorjb5.github.io/ANIF/images/post02_7.png)
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_7.png"  width="800">
+</div>
+
 
 
 **Caracterización de las clases**
@@ -692,7 +715,11 @@ Conseguimos clasificar a los clientes en clases en función de sus característi
 
 Dicho esto, se realizó una prueba de clasificación con 5 clientes sin grupo, para evaluar la eficacia del modelo en el momento de la catalogación. Esta prueba se realiza gráficamente, incorporando nuevos clientes representados por puntos morados en los planos previamente diseñados en el gráfico 4; Cabe mencionar que se conoce el valor de las variables características de los cinco clientes con respecto al uso de su tarjeta de crédito.
 
-![](https://juniorjb5.github.io/ANIF/images/post02_8.png)
+
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post02_8.png"  width="800">
+</div>
+
 
 
 La visualización de los nuevos clientes en los grupos se ilustra mejor en el plano compuesto por los componentes 1 y 2, por lo que el análisis principal se realizó con este plano. Ahora bien, entre estos 5 clientes, el modelo clasificó a 3 de ellos como miembros del grupo 2 (clientes inactivos), y al resto como miembros del grupo 3 (clientes activos).
