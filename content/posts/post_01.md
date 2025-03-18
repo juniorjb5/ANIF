@@ -1,13 +1,13 @@
 ---
 title: "Condiciones Climáticas y Precios de la Electricidad: El Papel de la Analítica y las Finanzas"
 image: "https://juniorjb5.github.io/ANIF/images/post01.jpg"
-date: "2025-03-15T00:00:00"
+date: "2025-03-17T00:00:00"
 tags:
   - Finanzas Cuantitativas
   - Mercados Eléctricos
-  - Cambio Climático
-  - Análisis de Riesgo
-  - Energía Renovable
+  - Clima
+  - Riesgo
+  - Energía
 description: En un entorno de creciente incertidumbre climática y volatilidad de los mercados, la comprensión de las dinámicas entre las condiciones meteorológicas y los precios de la electricidad se ha convertido en una necesidad estratégica para la estabilidad económica y energética.
 sidebar_left: sidebar1_post01
 ---

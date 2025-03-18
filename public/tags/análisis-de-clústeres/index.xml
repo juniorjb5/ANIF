@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Análisis De Clústeres on  </title>
+    <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-cl%C3%BAsteres/</link>
+    <description>Recent content in Análisis De Clústeres on  </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© All rights reserved</copyright>
+    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-cl%C3%BAsteres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segmentación de Clientes de Tarjetas de Crédito con Aprendizaje No Supervisado</title>
+      <link>http://localhost:4321/ANIF/posts/post_02/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_02/</guid>
+      <description>&lt;p&gt;Las tarjetas de crédito han dejado de ser un símbolo de estatus para convertirse en una herramienta financiera accesible y versátil. Su uso varía según el perfil del cliente, desde quienes las ven como un medio de financiamiento hasta quienes buscan maximizar beneficios. Para comprender estos patrones, analizamos a 9,000 titulares activos mediante 17 variables clave, aplicando técnicas de segmentación. Esto nos permitió identificar grupos de usuarios con comportamientos similares, simplificando el análisis sin perder información valiosa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
