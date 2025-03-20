@@ -57,6 +57,15 @@ slug: "integrantes"
 
 </div>
 
+
+<div style="text-align: center;">
+    <img src="https://juniorjb5.github.io/ANIF/images/Inte11.png" style="width: 120px; height: 120px; border-radius: 50%;">
+    <p><a href="https://industrial.univalle.edu.co/" target="_blank" style="text-decoration: none; color: inherit;">Victor Manuel Vargas Forero</a></p>
+    <p style="font-size: 14px; color: #777;">victor.m.vargas@correounivalle.edu.co</p>
+</div>
+
+</div>
+
 ---
 
 ## Profesores Asociados
