@@ -6,6 +6,8 @@ weight: 50
 ---
 
 
+{{< gallery >}}
+
 
 
 

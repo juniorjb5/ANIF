@@ -7,15 +7,43 @@
 <link rel="icon" href="/favicon.png" type="image/png">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="/ANIF/style.css" />
+   
+   
+<link rel="icon" href="https://juniorjb5.github.io/ANIF/favicon.ico" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
   <meta name="twitter:title" content="Galería de Fotos">
-  <meta name="twitter:description" content="Analítica e Ingeniería Financiera">
+  <meta name="twitter:description" content="">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+            selector: '.glightbox', 
+            touchNavigation: true,
+            loop: true,
+            zoomable: true,
+            autoplayVideos: true
+        });
+        console.log('✅ GLightbox cargado correctamente');
+    });
+</script>
 <meta property="og:url" content="http://localhost:4321/ANIF/gallery/">
   <meta property="og:site_name" content="Semillero ANIF Univalle">
   <meta property="og:title" content="Galería de Fotos">
-  <meta property="og:description" content="Analítica e Ingeniería Financiera">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="og:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
@@ -61,7 +89,64 @@
         <ul class="tags">
 </ul>
 
-    </header>
+    </header><div class="gallery">
+    
+    
+    
+        
+            <a href="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%201.jpeg" class="glightbox" data-title="Conferencia Roles en el área financiera - 1.jpeg">
+                <img src="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%201.jpeg" alt="Conferencia Roles en el área financiera - 1.jpeg">
+            </a>
+        
+    
+        
+            <a href="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%202.jpeg" class="glightbox" data-title="Conferencia Roles en el área financiera - 2.jpeg">
+                <img src="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%202.jpeg" alt="Conferencia Roles en el área financiera - 2.jpeg">
+            </a>
+        
+    
+        
+            <a href="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%203.jpeg" class="glightbox" data-title="Conferencia Roles en el área financiera - 3.jpeg">
+                <img src="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%203.jpeg" alt="Conferencia Roles en el área financiera - 3.jpeg">
+            </a>
+        
+    
+        
+            <a href="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%204.jpeg" class="glightbox" data-title="Conferencia Roles en el área financiera - 4.jpeg">
+                <img src="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%204.jpeg" alt="Conferencia Roles en el área financiera - 4.jpeg">
+            </a>
+        
+    
+        
+            <a href="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%205.jpeg" class="glightbox" data-title="Conferencia Roles en el área financiera - 5.jpeg">
+                <img src="http://localhost:4321/ANIF/gallery/Conferencia%20Roles%20en%20el%20%c3%a1rea%20financiera%20-%205.jpeg" alt="Conferencia Roles en el área financiera - 5.jpeg">
+            </a>
+        
+    
+</div>
+
+<style>
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+</style>
+
+
+
 
                                 </article>
                             </div>
