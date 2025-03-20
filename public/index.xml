@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inicio on  </title>
+    <title>Inicio on Semillero ANIF Univalle</title>
     <link>http://localhost:4321/ANIF/</link>
-    <description>Recent content in Inicio on  </description>
+    <description>Recent content in Inicio on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
@@ -29,6 +29,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/gifinc/</guid>
       <description>&lt;h3 id=&#34;nuestra-misión-innovación-y-excelencia-en-finanzas-cuantitativas&#34;&gt;Nuestra Misión: Innovación y Excelencia en Finanzas Cuantitativas&lt;/h3&gt;&#xA;&lt;p&gt;En GIFINC, estamos comprometidos con la generación de conocimiento que impulse la evolución de los mercados financieros. Nuestra estrategia se centra en:&lt;/p&gt;&#xA;&lt;p&gt;🔍 Explorar y desarrollar nuevos enfoques en finanzas cuantitativas, combinando metodología, teoría y aplicación práctica.&lt;/p&gt;&#xA;&lt;p&gt;📚 Publicar y compartir investigaciones en revistas científicas de alto impacto en energía, finanzas, economía y administración.&lt;/p&gt;&#xA;&lt;p&gt;🎓 Impulsar la educación con programas académicos de pregrado y posgrado de excelencia en la Universidad del Valle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Galería de Fotos</title>
+      <link>http://localhost:4321/ANIF/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/gallery/</guid>
+      <description></description>
     </item>
     <item>
       <title>Condiciones climáticas y precios de la electricidad: El papel de la analítica y las finanzas</title>

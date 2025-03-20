@@ -1,6 +1,6 @@
 baseURL = "https://juniorjb5.github.io/ANIF/"
 languageCode = "en-us"
-title = " "
+title = "Semillero ANIF Univalle"
 theme = "hugo-arcana-main"
 copyright = "© All rights reserved"
 
@@ -14,7 +14,7 @@ defaultContentLanguage = "es"
     description = "Analítica e Ingeniería Financiera"
     images = ['https://juniorjb5.github.io/ANIF/images/favicon.png']
     show_post_dates = false
-    favicon = ["/images/favicon.png"]
+    favicon = ["favicon.png"]
 
     
     [[params.social]]
