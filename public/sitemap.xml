@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
@@ -19,25 +19,34 @@
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
   </url><url>
+    <loc>http://localhost:4321/ANIF/tags/energ%C3%ADa/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/posts/post_03/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas-cuantitativas/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/refrigeraci%C3%B3n-distrital/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/riesgo/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/sostenibilidad/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/tags/clima/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/post_01/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/energ%C3%ADa/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/finanzas-cuantitativas/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/ANIF/tags/mercados-el%C3%A9ctricos/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/riesgo/</loc>
-    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-cl%C3%BAsteres/</loc>

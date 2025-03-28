@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head><script src="/ANIF/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=ANIF/livereload" data-no-instant defer></script>
+
+<title>Evaluación del riesgo financiero de un sistema de distritos de refrigeración | Semillero ANIF Univalle</title>
+<meta charset="utf-8" />
+<link rel="icon" href="/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/ANIF/style.css" />
+   
+   
+<link rel="icon" href="https://juniorjb5.github.io/ANIF/favicon.ico" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+  <meta name="twitter:title" content="Evaluación del riesgo financiero de un sistema de distritos de refrigeración">
+  <meta name="twitter:description" content="Este estudio evalúa la viabilidad y el riesgo financiero de implementar un sistema de refrigeración distrital (DCS) en Colombia, integrando simulaciones estocásticas y métricas avanzadas de riesgo como VaR y CVaR.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+            selector: '.glightbox', 
+            touchNavigation: true,
+            loop: true,
+            zoomable: true,
+            autoplayVideos: true
+        });
+        console.log('✅ GLightbox cargado correctamente');
+    });
+</script>
+<meta property="og:url" content="http://localhost:4321/ANIF/posts/post_03/">
+  <meta property="og:site_name" content="Semillero ANIF Univalle">
+  <meta property="og:title" content="Evaluación del riesgo financiero de un sistema de distritos de refrigeración">
+  <meta property="og:description" content="Este estudio evalúa la viabilidad y el riesgo financiero de implementar un sistema de refrigeración distrital (DCS) en Colombia, integrando simulaciones estocásticas y métricas avanzadas de riesgo como VaR y CVaR.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-28T00:00:00+00:00">
+    <meta property="article:tag" content="Finanzas Cuantitativas">
+    <meta property="article:tag" content="Energía">
+    <meta property="article:tag" content="Riesgo">
+    <meta property="article:tag" content="Refrigeración Distrital">
+    <meta property="article:tag" content="Sostenibilidad">
+    <meta property="og:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper"><div id="header">
+    <div id="logo-wrapper"><h1><a href="http://localhost:4321/ANIF/" id="logo">
+        Semillero ANIF Univalle
+    </a></h1></div>
+
+    <nav id="nav">
+        <ul>
+                <li class="">
+                    <a href="/ANIF/">Inicio</a>
+                <li class="">
+                    <a href="/ANIF/quienessomos/">Quiénes somos</a>
+                <li class="current">
+                    <a href="/ANIF/posts/">Publicaciones</a>
+                <li class="">
+                    <a href="/ANIF/conferencias/">Eventos</a>
+                <li class="">
+                    <a href="/ANIF/integrantes/">Integrantes</a>
+                <li class="">
+                    <a href="/ANIF/gifinc/">Grupo de Investigación GIFINC</a>
+                <li class="">
+                    <a href="/ANIF/gallery/">Galería de Fotos</a>
+        </ul>
+    </nav>
+</div>
+
+
+            <section class="wrapper style1">
+                <div class="container">
+                    <div class="row gtr-200">
+                            <div class="col-4 col-12-narrower">
+                                <div id="sidebar">
+<section>
+    <div style="text-align: center;">
+    <h3>Sobre los Autores</h3>
+    
+        
+        <img src="https://juniorjb5.github.io/ANIF/images/inte4.jpg" width="150" style="border-radius: 50%; margin-bottom: 10px;">
+        
+        
+        <p><strong>Yessenia Martinez-Ruiz, PhD.</strong> <br> Profesora. Escuela de Ingeniería Industrial</p>
+        <p>Doctora en Ingeniería. <br>
+        Magíster en Ingeniería Industrial. <br>
+        Ingeniera Industrial. <br>
+        Universidad del Valle</p>
+
+        
+        <p>
+            <a href="mailto:yessenia.martinez@univalle.edu.co">orlando.joaqui@correounivalle.edu.co</a>
+            <br>
+            <a href="https://industrial.univalle.edu.co/profesores/yessenia-martinez-ruiz">Website</a>
+        <br>
+
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <a href="https://www.linkedin.com/in/yessenia-martinez-ruiz-b887a42b8/" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin" style="font-size: 30px; color: #0077b5;"></i>
+    Ver LinkedIn
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<hr style="border: none; height: 5px; background-color: #f0f0f0; width: 100% !important; margin: 20px auto !important;">
+
+<br>
+
+
+
+<section>
+  <h3>Enlaces de interés</h3>
+    <h3></h3>
+    <ul class="links">
+        <li><a href="https://www.univalle.edu.co/">La Universidad</a></li>
+        <li><a href="https://ingenieria.univalle.edu.co/">La Facultad</a></li>
+        <li><a href="https://industrial.univalle.edu.co/">La Escuela</a></li>
+        <li><a href="https://www.semilleroanifunivalle.com/integrantes/">Conoce a Nuestro Equipo</a></li>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" target="_blank">Síguenos en LinkedIn</a></li>
+    </ul>
+
+</section>
+
+
+
+                                </div>
+                            </div>
+
+                        <div class="col-8 col-12-narrower imp-narrower">
+                            <div id="content">
+                                <article>
+    <header>
+        <h2>Evaluación del riesgo financiero de un sistema de distritos de refrigeración</h2>
+        <p>Este estudio evalúa la viabilidad y el riesgo financiero de implementar un sistema de refrigeración distrital (DCS) en Colombia, integrando simulaciones estocásticas y métricas avanzadas de riesgo como VaR y CVaR.</p>
+        
+        <ul class="tags"><li><a href="/ANIF/tags/finanzas-cuantitativas/">Finanzas Cuantitativas</a><li><a href="/ANIF/tags/energ%C3%ADa/">Energía</a><li><a href="/ANIF/tags/riesgo/">Riesgo</a><li><a href="/ANIF/tags/refrigeraci%C3%B3n-distrital/">Refrigeración Distrital</a><li><a href="/ANIF/tags/sostenibilidad/">Sostenibilidad</a>
+</ul>
+
+    </header>
+    <span class="image featured">
+        <img src="https://juniorjb5.github.io/ANIF/images/post03.jpg" alt="" 
+            style="
+                max-width: 600px;
+                height: auto;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+                margin: 0 auto;
+            " />
+    </span>
+<h2 id="contexto">Contexto</h2>
+<p>Los sistemas de refrigeración distrital (District Cooling Systems – DCS) han ganado atención como una alternativa energéticamente eficiente y ambientalmente sostenible frente a los sistemas tradicionales de aire acondicionado en edificaciones (TCS, por sus siglas en inglés). A través de una infraestructura centralizada, un DCS puede enfriar múltiples edificios o unidades residenciales a partir de una misma planta, optimizando el uso de energía y reduciendo costos operativos a largo plazo.</p>
+<p>En países como Colombia, donde este tipo de soluciones aún no son comunes, es clave evaluar no solo su viabilidad técnica, sino también su comportamiento financiero bajo condiciones reales de incertidumbre.</p>
+<!-- more -->
+<h2 id="objetivo-del-estudio">Objetivo del estudio</h2>
+<p>Este trabajo tiene como objetivo evaluar la viabilidad financiera y el riesgo financiero asociado a la implementación de un sistema de refrigeración distrital (DCS) para un conjunto residencial en Colombia, comparándolo con un sistema tradicional de refrigeración (TCS) desde el punto de vista del inversionista y los usuarios finales: propietarios de los apartamentos y zonas comunes.</p>
+<p>A diferencia de análisis deterministas tradicionales, esta investigación incorpora la incertidumbre de variables clave como la inversión inicial, el consumo de refrigeración, la tarifa de energía y la demanda de refrigeración, mediante un enfoque de simulación estocástica.</p>
+<h1 id="-visita-la-publicación">💡 Visita la publicación</h1>
+<p><a href="https://doi.org/10.1016/j.energy.2023.127879">Link Paper: https://doi.org/10.1016/j.energy.2023.127879</a></p>
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/post03_1.jpg"  width="800">
+</div>
+<h2 id="metodología">Metodología</h2>
+<p>Para capturar el comportamiento real del proyecto bajo diferentes escenarios, se utilizó una simulación Monte Carlo con 10,000 iteraciones, modelando variables de entrada a partir de distribuciones probabilísticas ajustadas a datos históricos y técnicos.</p>
+<p>Además, se aplicaron herramientas de gestión del riesgo como:</p>
+<ul>
+<li><strong>Value at Risk (VaR):</strong> para identificar la pérdida potencial máxima en condiciones adversas.</li>
+<li><strong>Conditional Value at Risk (CVaR):</strong> para evaluar el valor esperado de las pérdidas más extremas.</li>
+</ul>
+<p>Estas métricas se calcularon tanto desde el punto de vista del inversionista (por medio de la tarifa de refrigeración) como desde los usuarios finales (a través de los ahorros obtenidos).</p>
+<h2 id="resultados-principales">Resultados principales</h2>
+<p>Incluso en las condiciones de riesgo más extremas, los ahorros derivados de la implementación de un sistema de refrigeración distrital (DCS) pueden alcanzar hasta un 61% y un 57% de los costos asumidos por los usuarios finales, en comparación con las alternativas tradicionales de refrigeración.</p>
+<p>El análisis de riesgo mostró que, aunque existe exposición financiera ante variables como la inversión inicial y el costo de la energía, el proyecto de distritos de refrigeración es financieramente resiliente dentro de un rango amplio de escenarios.</p>
+<h2 id="importancia-del-estudio">Importancia del estudio</h2>
+<p>Este trabajo aporta una metodología robusta y adaptable para evaluar proyectos energéticos desde una perspectiva de riesgo financiero, superando las limitaciones de los enfoques deterministas. Además, pone en evidencia la viabilidad de soluciones energéticas sostenibles como el DCS en el contexto latinoamericano, donde es necesario avanzar hacia modelos más eficientes y respetuosos con el medio ambiente.</p>
+<h2 id="relación-con-el-semillero-de-investigación-en-analítica-e-ingeniería-financiera">Relación con el Semillero de Investigación en Analítica e Ingeniería Financiera</h2>
+<p>Esta investigación refleja el enfoque del Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) al integrar herramientas cuantitativas avanzadas como simulación Monte Carlo y métricas de riesgo financiero (VaR y CVaR) en la evaluación de proyectos de inversión. Además, demuestra cómo el análisis financiero puede ser una herramienta poderosa para tomar decisiones estratégicas en proyectos con impacto energético, económico y ambiental.</p>
+
+
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://www.univalle.edu.co/">Universidad del Valle</a><li><a href="https://ingenieria.univalle.edu.co/">Facultad de Ingeniería</a><li><a href="https://industrial.univalle.edu.co/">Escuela de Ingeniería Industrial</a>
+                    </ul>
+                </section>
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013799">GrupLAC</a><li><a href="https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque">Director </a>
+                    </ul>
+                </section>
+            <section class="col-6 col-12-narrower">
+    <h3>Contáctanos</h3>
+    <div>
+        <p>
+            📧 <a href="mailto:investigacion.gifinc@correounivalle.edu.co" style="text-decoration: none; color: inherit;">investigacion.gifinc@correounivalle.edu.co</a>
+        </p>
+        <p>
+            📍 Calle 13 No. 100 - 00, <br>
+Edificio E23 - Ciudadela Universitaria Meléndez <br>
+Universidad del Valle <br>
+Cali, Colombia
+        </p>
+    </div>
+</section>
+
+        </div>
+    </div>
+
+    <ul class="icons">
+        <li><a href="#" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+        </a>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" class="icon brands fa-linkedin-in">
+            <span class="label">LinkedIn</span>
+        </a>
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>© All rights reserved
+            
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
+                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
+        </ul>
+    </div>
+</div>
+</div><script src="/ANIF/js/jquery.min.js"></script>
+<script src="/ANIF/js/jquery.dropotron.min.js"></script>
+<script src="/ANIF/js/browser.min.js"></script>
+<script src="/ANIF/js/breakpoints.min.js"></script>
+<script src="/ANIF/js/util.js"></script>
+<script src="/ANIF/js/main.js"></script>
+</body>
+</html>
