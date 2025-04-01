@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
@@ -11,13 +11,31 @@
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/gifinc/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/machine-learning/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf2/</loc>
+    <lastmod>2025-04-09T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/energ%C3%ADa/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
@@ -37,9 +55,6 @@
     <loc>http://localhost:4321/ANIF/tags/sostenibilidad/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/ANIF/tags/clima/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -55,20 +70,11 @@
     <loc>http://localhost:4321/ANIF/tags/aprendizaje-no-supervisado/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/machine-learning/</loc>
-    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/ANIF/posts/post_02/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/tarjetas-de-cr%C3%A9dito/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/inversiones/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
