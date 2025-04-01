@@ -1,7 +1,7 @@
 ---
 title: Taller de Valor en Riesgo (VaR)
 image: images/conf2.jpg
-date: "2025-04-09T12:00:00"
+date: "2025-04-01T12:00:00"
 tags:  
   - Finanzas  
   - Análisis de Riesgo  
