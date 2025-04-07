@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>VaR - Value at Risk</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Orlando Joaqui-Barandica, PhD" />
+    <meta name="date" content="2025-01-01" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link href="libs/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="libs/fontawesome/js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="sydney.css" type="text/css" />
+    <link rel="stylesheet" href="fonts_mtheme.css" type="text/css" />
+    <link rel="stylesheet" href="cols.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+
+
+class: inverse, left, bottom
+background-image: url("img/pitana3.jpg")
+background-size: cover
+
+
+# **VaR - Value at Risk**
+----
+
+## **Universidad del Valle**
+
+### Orlando Joaqui-Barandica, PhD
+### 2025
+
+
+
+
+
+
+
+---
+name: hola
+class: center, middle
+
+.pull-left[
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src="img/uv3.jpg" width="150px"/&gt;
+
+
+&lt;br&gt;
+
+# &lt;span style="font-size: 45px; color: #444444; font-weight: bold;"&gt; Semillero de Investigación en Analítica e Ingeniería Financiera&lt;/span&gt;
+
+<i class="fas  fa-link fa-spin "></i> [www.semilleroanifunivalle.com](https://www.semilleroanifunivalle.com)
+
+
+]
+
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+&lt;img src="img/logoanif.png" /&gt;
+]
+
+---
+
+
+class: center, middle
+
+&lt;img src="img/gifinc.jpg" width="50%"/&gt;
+
+### [https://gifinc.univalle.edu.co/](https://gifinc.univalle.edu.co/)
+
+
+---
+
+
+&lt;br&gt;&lt;br&gt;
+
+.center[
+&lt;img style="border-radius: 50%;" src="img/avatar.jpg"
+width="160px" href="https://www.joaquibarandica.com"
+/&gt;
+
+[Orlando Joaqui-Barandica](https://www.joaquibarandica.com) &lt;br/&gt;
+Universidad del Valle
+]
+
+&lt;br&gt;
+
+
+
+.center[
+
+*PhD. Ingeniería con enfásis en Ingeniería Industrial* 
+ 
+*MSc. Economía Aplicada*
+ 
+*Estadístico*
+
+&lt;br&gt;
+
+<i class="fas  fa-link fa-spin "></i> [www.joaquibarandica.com](https://www.joaquibarandica.com)
+
+]
+
+
+
+---
+class: center, middle
+
+
+# &lt;span style="font-size: 50px; font-weight: bold;"&gt; Acciones, decisiones y volatilidad&lt;/span&gt;
+
+
+## &lt;span style="font-size: 28px; color: #444444;"&gt;En los mercados financieros, la incertidumbre no es una excepción. Es la regla.&lt;/span&gt;
+
+&lt;br&gt;
+
+.pull-left[
+
+&gt; Situemos el contexto real de cualquier inversionista.
+
+
+----
+
+Cada día se toman millones de decisiones alrededor de activos financieros. Y esas decisiones no ocurren en ambientes de certeza. En los mercados financieros, la incertidumbre es la norma.
+
+&lt;br&gt;
+
+**¿Podemos cuantificar la incertidumbre?**
+]
+
+
+.pull-right[
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJtN3RncHV6ODQ1eG9wY3g5azFpeXJkOXh6OWlvcXpta2RvZHh3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JUFt5VlqVLDnkCM5zV/giphy.gif)
+
+
+
+]
+
+
+---
+
+
+
+# &lt;span style="font-size: 48px; font-weight: bold;"&gt;Ejemplos de incertidumbre en los mercados financieros&lt;/span&gt;
+
+&lt;br&gt;
+
+.pull-left[
+
+- **Acciones tecnológicas:** &lt;br&gt; ¿Subirá o caerá el precio de una acción como NVIDIA tras una nueva regulación o lanzamiento?
+
+- **Tasa de cambio USD/COP:** &lt;br&gt; Impactada por decisiones de la FED, precios del petróleo o eventos políticos internos.
+
+- **Bonos soberanos:** &lt;br&gt; Cambios en el riesgo país pueden mover su valor en minutos.
+
+
+]
+
+.pull-right[
+- **Criptomonedas:** &lt;br&gt; Alta volatilidad frente a noticias regulatorias o hackeos.
+
+- **Commodities:** &lt;br&gt; El precio del café, el petróleo o el oro responde a guerras, clima y demanda global.
+
+- **Tasas de interés de referencia:** &lt;br&gt; Pueden cambiar por inflación o política monetaria, afectando múltiples activos al mismo tiempo.
+
+]
+
+.center[
+&lt;br&gt;
+&lt;span style="font-size: 26px; color: #444444;"&gt;La incertidumbre se manifiesta de muchas formas. Nuestro reto es medirla para tomar decisiones informadas.&lt;/span&gt;
+]
+
+---
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Cómo se ve la volatilidad?&lt;/span&gt;
+
+.pull-left[
+
+### &lt;span style="font-size: 26px; color: #444444;"&gt;Pensemos en acciones... Dos activos financieros pueden tener trayectorias similares, pero niveles de volatilidad muy distintos.&lt;/span&gt;
+
+&lt;br&gt;
+
+&gt; - La **volatilidad** mide qué tanto se desvían los precios respecto a su media.
+&gt; - A mayor volatilidad, mayor incertidumbre.
+&gt; - Visualizarla es el primer paso para aprender a cuantificarla.
+
+]
+
+.pull-right[
+
+&lt;img src="VaR_files/figure-html/volatilidad-series-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Y si lo vemos desde los retornos?&lt;/span&gt;
+
+
+&lt;img src="VaR_files/figure-html/retornos-series-1.png" style="display: block; margin: auto;" /&gt;
+
+
+----
+
+.center[
+### &lt;span style="font-size: 26px; color: #444444;"&gt;El análisis de los precios puede ocultar detalles importantes.&lt;/span&gt;
+]
+
+
+---
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Y si lo vemos desde los retornos?&lt;/span&gt;
+
+
+
+
+.center[
+### &lt;span style="font-size: 26px; color: #444444;"&gt;Lo que realmente refleja la **volatilidad** es la variación diaria (los retornos).&lt;/span&gt;
+
+]
+
+
+
+
+&lt;img src="VaR_files/figure-html/retornos-series-hist-1.png" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Entonces, ¿Qué factores mueven el valor de una acción?&lt;/span&gt;
+
+
+
+### &lt;span style="font-size: 28px; color: #444444;"&gt;La respuesta no es sencilla: expectativas, tasas, política monetaria, confianza, flujos internacionales...&lt;/span&gt;
+
+
+.center[
+### &lt;span style="font-size: 26px; color: #006D5B;"&gt;Pero detrás de cada cambio hay datos. Y detrás de los datos, decisiones.&lt;/span&gt;
+]
+
+
+.pull-left[
+
+Una acción no solo depende del estado financiero de una empresa. Su valor refleja lo que el mercado espera que ocurra. Por eso, factores como las tasas de interés, el contexto económico global o incluso un tweet pueden generar cambios drásticos. 
+
+
+&gt; Nuestro trabajo es identificar y entender esas variables que están detrás de cada movimiento.
+
+]
+
+.pull-right[
+
+.center[
+&lt;img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3N6Njl0am01azRpZWtyd3A0bmp6eWIxNG5tZjlkdTQ2Y2dmcDF2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OEuOWsOzNpHuXsuLjx/giphy.gif" style="max-width: 280px; border-radius: 12px;"/&gt;
+]
+]
+
+
+
+
+---
+class: inverse, center, middle
+background-image: url("img/nvidia.png")
+background-size: cover
+
+# &lt;span style="font-size: 54px; font-weight: bold; color: #ffffff; text-shadow: 2px 2px 10px #000000;"&gt;La volatilidad entonces nos hace ganar... y también nos hace perder&lt;/span&gt;
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Cómo cuantificamos la posibilidad de perder?&lt;/span&gt;
+
+
+### &lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; La estadística y la analítica financiera nos ofrecen herramientas para medir el riesgo.&lt;/span&gt;
+
+### &lt;span style="font-size: 28px; color: #006D5B;"&gt;Una de ellas: el &lt;strong&gt;Value at Risk (VaR)&lt;/strong&gt;, clave para decisiones informadas sobre portafolios e inversiones.&lt;/span&gt;
+
+
+----
+&lt;br&gt;
+
+.pull-left[
+&lt;br&gt;
+## Toda inversión conlleva una posibilidad de pérdida.
+]
+
+.pull-right[
+
+#### Pero... ¿cómo cuantificamos esa posibilidad de forma objetiva?
+
+#### ¿Podemos medir cuánto se puede perder y con qué probabilidad? 
+
+&gt;Herramientas como el VaR nos permiten hacerlo de manera técnica y basada en datos.
+]
+
+&lt;br&gt;
+----
+
+
+
+---
+class: inverse, center, middle
+background-image: url("img/Lobo.jpg")
+background-size: cover
+
+# &lt;span style="font-size: 55px; font-weight: bold; color: #ffffff; text-shadow: 2px 2px 10px #000000;"&gt;Bienvenido al mundo de las Finanzas&lt;/span&gt;
+
+## &lt;span style="font-size: 40px; color: #FFFFFF;"&gt;Donde el valor de una decisión se mide en millones... &lt;br&gt; y el riesgo se convierte en tu mejor aliado si sabes cómo entenderlo.&lt;/span&gt;
+
+---
+class: center, middle
+
+# &lt;span style="font-size: 48px; color: #444444;"&gt;¿Qué tienen en común Netflix, Ecopetrol y Tesla?&lt;/span&gt;
+
+### &lt;span style="font-size: 32px; color: #444444;"&gt;Son acciones que suben, bajan, emocionan y preocupan...&lt;/span&gt;
+
+&lt;br&gt;
+
+### &lt;span style="font-size: 28px; color: #006D5B;"&gt;Y para tomar decisiones inteligentes sobre ellas...&lt;/span&gt;
+
+## &lt;span style="font-size: 38px; color: #ffa500; font-weight: bold;"&gt;¡Necesitas Analítica Financiera y Medición del Riesgo!&lt;/span&gt;
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Qué es una acción?&lt;/span&gt;
+
+
+&lt;br&gt;&lt;br&gt;
+
+.pull-left[
+
+&gt; - Una acción representa una fracción de propiedad de una empresa. 
+
+&gt; - Comprar una acción te convierte en socio o accionista.
+
+&gt; - Te da derecho a recibir parte de las utilidades (como dividendos) y, en algunos casos, a participar en las decisiones corporativas.
+
+]
+
+.pull-right[
+
+&gt; - Los derechos dependen del tipo de acción: comunes o preferenciales.
+
+&gt; - Además de los dividendos, puedes obtener ganancias de capital si vendes a un precio más alto que el de compra.
+
+]
+
+&lt;br&gt;
+
+
+----
+
+
+### &lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; Las acciones pueden ser comunes o preferenciales.&lt;/span&gt;
+
+
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Tipos de acciones&lt;/span&gt;
+
+
+.pull-left[
+
+## Acciones comunes:
+- Representan la propiedad básica de la empresa.
+- Derecho a voto en asambleas de accionistas.
+- Dividendos variables: dependen de las ganancias y decisión de la junta.
+- Mayor riesgo, pero con mayor posibilidad de crecimiento a largo plazo.
+
+**Ejemplo:** Si compras acciones comunes de Ecopetrol, puedes recibir dividendos cuando haya utilidades y participar en decisiones si tienes suficiente porcentaje.
+
+]
+
+.pull-right[
+
+## Acciones preferenciales:
+- Prioridad en el pago de dividendos.
+- No suelen tener derecho a voto.
+- Dividendos más estables o fijos.
+- Menor riesgo, pero con menos posibilidad de valorización.
+
+**Ejemplo:** Una acción preferencial en una empresa puede garantizarte el 5% anual, sin importar si otros accionistas comunes reciben más o menos.
+
+]
+
+
+---
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Y si compras acciones de Netflix?&lt;/span&gt;
+
+.pull-left[
+
+&gt; - Te conviertes en **accionista de Netflix Inc.**  
+
+&gt; - Si compras una acción a 400 USD, y luego sube a 500 USD, puedes vender y ganar la diferencia (**ganancia de capital**).
+
+&gt; - Si Netflix paga dividendos (no siempre lo hace), podrías recibir un pago periódico.
+
+&gt; - Como es una acción común, **no tienes garantizado un retorno fijo**, pero sí participas en el valor de mercado de la empresa.
+
+&gt; - Tus derechos son limitados si tienes pocas acciones (sin poder de voto real).
+
+]
+
+.pull-right[
+
+&lt;br&gt;&lt;br&gt;
+.center[
+&lt;img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGhuamtubjhqOWhvNGFxN2dtdzIwbWRqeWM1YmZwYWVleG9wYXNpaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vYHSRSor0Kaje/giphy.gif" style="max-width: 500px; border-radius: 12px;" /&gt;
+]
+]
+
+---
+
+class: middle
+
+.pull-left[
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Cómo se valoriza una acción?&lt;/span&gt;
+
+
+
+&lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; Oferta y demanda:&lt;/span&gt; si muchas personas quieren comprar, el precio sube.
+
+
+&lt;br&gt;
+
+&lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; Indicadores fundamentales:&lt;/span&gt; utilidad por acción, dividendos, crecimiento, etc.
+
+&lt;br&gt;
+
+&lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; Factores externos:&lt;/span&gt; ssituación económica, tasas de interés, noticias.
+
+]
+
+
+.pull-right[
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Qué son los dividendos?&lt;/span&gt;
+
+
+
+- **Distribución de ganancias:** es la parte de las utilidades que una empresa reparte entre sus accionistas.
+- **Formas de pago:** pueden entregarse en efectivo o en forma de nuevas acciones.
+- **No todas las empresas los otorgan:** algunas reinvierten todo para crecer (como muchas tecnológicas).
+- **Ajuste en el precio:** cuando se reparten, el precio de la acción suele bajar por el valor del dividendo entregado.
+
+
+]
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Qué es el riesgo en finanzas?&lt;/span&gt;
+
+
+&lt;span style="font-size: 30px; color: #444444;"&gt; &gt;&gt;&gt;&gt;&gt; Posibilidad de que el resultado de una inversión sea diferente al esperado.&lt;/span&gt;
+
+
+.pull-left[
+
+## Tipos de riesgo:
+- **Riesgo de mercado:** variaciones en precios o tasas.  
+  *Ejemplo:* una subida en las tasas de interés hace caer el valor de los bonos que posees.
+
+- **Riesgo específico:** relacionado a la empresa o sector.  
+  *Ejemplo:* un escándalo contable en una empresa hace caer su acción, aunque el mercado general esté estable.
+
+- **Riesgo sistémico:** afecta a todo el sistema financiero.  
+  *Ejemplo:* una crisis financiera global que desploma las bolsas del mundo.
+
+]
+
+
+.pull-right[
+
+.center[
+&lt;img src="img/coins.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+]
+
+]
+
+---
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Qué es una cartera de inversión?&lt;/span&gt;
+
+
+
+
+Una cartera de inversión es el conjunto de activos financieros que pertenecen a una persona o por una institución, ya sea una sociedad o un fondo.
+
+
+
+.pull-left[
+
+&lt;img src="img/img1.png" width="300px" style="display: block; margin: auto;" /&gt;
+
+
+
+ ]
+
+.pull-right[
+
+&gt; Qué puede contener una cartera?
+
+- Acciones
+- Obligaciones
+- Materias primas
+- Fondos
+- Pólizas
+- Etc.
+
+]
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Asignación de activos y riesgo&lt;/span&gt;
+
+
+
+
+#### La cartera refleja la propensión al riesgo del inversor, así como el horizonte temporal y los objetivos de su inversión.
+
+
+.center[
+
+## Rentabilidad vs Riesgo
+
+
+
+
+&lt;img src="https://media.giphy.com/media/xT8qBit7YomT80d0M8/giphy.gif" width="20%"/&gt;
+
+]
+
+
+.center[
+`Diversificar correctamente la inversión permitirá que la cartera esté expuesta a menos riesgos que si se invierte en una única clase de activos o en un único título.`
+]
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/m65GQLUX8faUw/giphy.gif")
+background-size: cover
+class: inverse, center, middle
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Rentabilidad vs Riesgo&lt;/span&gt;
+
+
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Por qué crear una cartera de inversión?&lt;/span&gt;
+
+
+.pull-left[
+
+.center[
+
+## La creación de una cartera de inversión obedece a la necesidad del inversor de diversificar sus inversiones
+
+## con el fin de..
+
+## reducir sus riesgos de pérdida.
+
+]
+
+]
+
+
+
+.pull-right[
+
+&lt;br&gt;
+&lt;br&gt;
+
+.center[
+&lt;img src="https://media.giphy.com/media/MRxJqmk3MNta8/giphy.gif" width="90%"/&gt;
+]
+]
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Quién gestiona la cartera de inversión?&lt;/span&gt;
+
+
+
+
+.center[
+&lt;img src="https://media.giphy.com/media/3o6wroTygkjop77QiY/giphy.gif" width="40%"/&gt;
+]
+
+
+.center[
+### La cartera pertenece al inversor  pero puede ser gestionada por un profesional financiero, por un banco, por un fondo o por otras instituciones financieras.
+]
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Diversificar y cubrir riesgos&lt;/span&gt;
+
+
+.pull-left[
+
+&lt;br&gt;
+
+La principal premisa de cualquier portafolio de inversión, especialmente a largo plazo, es alcanzar el equilibrio.
+
+----
+&gt;Independientemente del **perfil inversor de cada persona**, una buena cartera debe de ser capaz de cubrir los riesgos de los activos `más agresivos` con otros más `conservadores.`
+
+----
+
+&lt;br&gt;
+
+.center[
+### Diversificar la inversión es la mejor fórmula para lograrlo.
+]
+
+]
+
+
+.pull-right[
+
+
+
+.center[
+
+&lt;img src="img/img2.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+
+&lt;br&gt;
+
+
+Del mismo modo que en bolsa no es recomendable tener acciones sólo de una empresa o de un sector en concreto, tampoco hay que fiar todo el patrimonio a un tipo de inversión o familia de productos
+]
+
+
+
+
+]
+
+
+---
+
+background-image: url("https://media.giphy.com/media/5UEO7c7Ubk5pKQYwje/giphy.gif")
+background-size: cover
+class: inverse, center, middle
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Cuánto invertir en cada activo?&lt;/span&gt;
+
+
+
+---
+
+class: left, bottom
+background-image: url("img/back1.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back2.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back3.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back4.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back5.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back6.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back7.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back8.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back9.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back10.png")
+background-size: cover
+
+
+---
+
+class: left, bottom
+background-image: url("img/back11.png")
+background-size: cover
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/3o7abIileRivlGr8Nq/giphy.gif")
+background-size: cover
+class: inverse, center, middle
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Hoy ganamos!!... mañana?&lt;/span&gt;
+
+
+
+---
+
+
+
+class: center, middle
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Ahora que conocemos múltiples conceptos,&lt;br&gt; miremos como medir el riesgo&lt;/span&gt;
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Valor en Riesgo (VaR)&lt;/span&gt;
+
+
+
+.pull-left[
+
+&lt;br&gt;
+&lt;br&gt;
+
+El Valor en Riesgo (VaR) es una de las medidas utilizadas para evaluar el riesgo de una determinada posición o cartera de activos financieros.
+
+&lt;br&gt;
+
+La definición del VaR puede hacerse en términos de **rentabilidades** o en términos de **Pérdidas y Ganancias** (términos nominales).
+
+]
+
+
+.pull-right[
+
+![](https://media.giphy.com/media/d5FbeKADxF3CSf7y1L/giphy.gif)
+
+
+
+]
+
+
+
+---
+
+
+class: center, middle
+
+
+
+# El VaR responde entonces a la pregunta:
+
+
+
+### ¿Cuál es la caída o pérdida que se podría sufrir en condiciones normales de mercado en un intervalo de tiempo y con cierto nivel de probabilidad o de confianza?
+
+
+
+
+---
+
+
+class: center, middle
+
+## Es decir, indica la probabilidad (normalmente 1% o 5%) de sufrir una determinada pérdida durante un periodo de tiempo (normalmente 1 día, 1 semana o 1 mes).
+
+--
+
+&lt;br&gt;
+
+## Una interpretación equivalente es:
+
+--
+
+&lt;br&gt;
+
+### Con probabilidad `$$1- \alpha$$` el propietario de dicha posición experimentará una pérdida no superior al VaR.
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Valor en Riesgo (VaR)&lt;/span&gt;
+
+.pull-left[
+
+Ejemplo:
+
+&lt;br&gt;
+
+&gt; Inviertes en acciones de **Netflix** por un valor total de **10 millones de pesos**.  
+&gt; Luego de aplicar un modelo, encuentras que el **VaR diario al 95%** es de **350 mil pesos**.
+
+&lt;br&gt;
+
+----
+
+&lt;br&gt;
+
+
+
+
+]
+
+.pull-right[
+
+&lt;img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmdmaWlxNHFqb3d3ajl5eTBrMHd3aXhqeGluazhtMmVndXdobmpnNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BmmfETghGOPrW/giphy.gif" style="max-width: 500px; border-radius: 10px;" /&gt;
+
+]
+
+&gt; Esto quiere decir que, si las condiciones del mercado se comportan como se espera, es muy poco probable (solo un 5%) que pierdas más de 350 mil pesos en un solo día.
+
+&gt; `O dicho de otro modo: con un 95% de confianza, la pérdida diaria no pasará ese valor.`
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Valor en Riesgo (VaR)&lt;/span&gt;
+
+
+&lt;img src="img/Imagen2.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+.center[
+
+### Por consiguiente, el VaR no es sino un determinado percentil de la distribución de probabilidad prevista para las variaciones en el valor de mercado de la cartera en el horizonte de tiempo escogido.
+
+]
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Valor en Riesgo (VaR)&lt;/span&gt;
+
+
+## Tipos de VaR
+
+
+- **VaR Histórico, No Paramétrico:** se encuentra el `\(\alpha\)` percentil de la distribución histórica de los datos.
+
+&lt;br/&gt;
+
+- **VaR Paramétrico:** se calcula el VaR con base en un modelo que describe su función de densidad de las pérdidas. La cual debe ser estimada.
+  - VaR suponiendo que las pérdidas siguen una distribución Gaussiana no condicional.
+
+  - VaR modelando los valores futuros de la media y la varianza condicionales.
+
+  - VaR por simulación de Montecarlo (estimando la función multivariada que describe los datos, por ejemplo mediante cópulas)
+
+
+
+---
+
+
+
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Valor en Riesgo (VaR)&lt;/span&gt;
+
+
+## Tipos de VaR: Método No Paramétrico - Histórico
+
+
+
+.pull-left[
+
+- No precisa hacer supuestos acerca de la forma paramétrica de la distribución de rentabilidades de los factores de riesgo o de la cartera.
+
+
+- El método histórico debe utilizarse solo para el cálculo del VaR a un horizonte de muy pocos días.
+
+
+]
+
+
+.pull-right[
+
+`$$VaR_{(1-\alpha)} = q_{(1-\alpha)(R)}  \nonumber$$`
+
+]
+
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Cálculo del VaR (VaR)&lt;/span&gt;
+
+
+
+
+## Tipos de VaR: Método Paramétrico - Distribución Gaussiana
+
+
+.pull-left[
+
+- Suponemos que la distribución de las rentabilidades de los factores sigue una distribución Normal multivariante y la cartera es función lineal de los factores.
+
+- Su ventaja es que es tratable analíticamente, pero solo se puede generalizar a una pocas formas paramétricas, como la Normal, la t-Student, o mixturas de Normales o de t-Student.
+
+
+
+
+]
+
+
+.pull-right[
+
+
+.center[
+Como `\(\alpha\)` es un valor reducido: 5%, 1% o 0.01%, entonces `\(R^*\)` será una rentabilidad negativa, y el VaR se proporciona cambiando el signo.
+]
+
+
+`$$VaR = -R^{\*} \Rightarrow \alpha = P(R&lt;R^{\*}) = \Phi\left( \frac{R^{\*}-\mu_R}{\sigma_R} \right) \nonumber$$`
+
+`$$VaR_{(1-\alpha)} = \Phi^{-1}(1-\alpha) \sigma_R - \mu_R  \nonumber$$`
+
+
+
+
+]
+
+---
+
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Cálculo del VaR (VaR)&lt;/span&gt;
+
+
+## Tipos de VaR: Método de normalidad estático
+
+
+`$$VaR_{(1-\alpha)} = \Phi^{-1}(1-\alpha) \sigma_R - \mu_R  \nonumber$$`
+
+
+## Tipos de VaR: Método de normalidad condicional
+
+
+`$$VaR_{(1-\alpha),t+1} = \Phi^{-1}(1-\alpha) \sigma_{R,t+1} - \mu_{R,t+1}  \nonumber$$`
+
+
+
+- Estimación de `\(\mu_{t+1}\)`: Modelos ARIMA de series de tiempo
+- Estimación de `\(\sigma_{t+1}\)`: Modelos de varianza condicional:
+  - Modelos GARCH: como un ARMA sobre la varianza con algunas restricciones.
+  - Modelos de Volatilidad Estocástica: una versión más general de los GARCH.
+
+
+
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Cálculo del VaR (VaR)&lt;/span&gt;
+
+
+## Tipos de VaR: Método de simulación MonteCarlo - estático
+
+
+`$$VaR_{(1-\alpha)} = \sigma_R(-q_{(1-\alpha)}(Z))  - \mu_R, \quad \quad Z\sim N(0,1)  \nonumber$$`
+
+
+## Tipos de VaR: Método de simulación MonteCarlo - dinámico
+
+
+`$$VaR_{(1-\alpha)} = \sigma_{R,t+1}(-q_{(1-\alpha)}(Z))  - \mu_{R,t+1}, \quad \quad Z\sim N(0,1)  \nonumber$$`
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Limitaciones del VaR&lt;/span&gt;
+
+
+.pull-left[
+
+
+----
+
+&gt; - **No dice qué tan grande puede ser la pérdida si se supera el VaR.** Solo indica un umbral, pero no cuantifica lo peor que podría pasar.
+
+&gt; - **Puede inducir falsas sensaciones de seguridad:** al centrarse solo en el percentil, ignora las pérdidas extremas más allá de ese umbral.
+
+&gt; - **Puede incentivar malas decisiones:** Como el VaR no muestra qué tan graves pueden ser las pérdidas más allá del umbral, algunos inversionistas podrían tomar riesgos excesivos, confiando en que el VaR "no se ve tan alto". Esto puede ocultar peligros reales en eventos extremos.
+
+
+
+----
+
+]
+
+.pull-right[
+
+Aunque existen varios métodos para calcular el Valor en Riesgo (VaR), todos comparten ciertas limitaciones que no se pueden ignorar.
+
+
+.center[
+&lt;img src="https://media.giphy.com/media/giC1lIEz7iOIk5vp3U/giphy.gif" style="max-width: 350px; border-radius: 12px;"/&gt;
+]
+
+
+]
+
+
+---
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Expected Shortfall (CVaR)&lt;/span&gt;
+
+
+
+
+.pull-left[
+
+
+El VaR te dice cuál es la pérdida máxima esperada en condiciones normales, con un nivel de confianza dado (por ejemplo, el 95%).
+Pero no te dice nada sobre qué pasa si esa pérdida se supera.
+
+Ahí entra el `Expected Shortfall (CVaR):`
+
+- Estima el promedio de las pérdidas más graves, es decir, aquellas que superan el VaR.
+
+- Nos da una idea de qué tan mal pueden ponerse las cosas si ocurre un evento extremo.
+
+
+
+
+&gt; **Si el VaR es un “límite de seguridad”, el CVaR te dice qué tan profundo es el abismo si lo cruzas.**
+
+]
+
+.pull-right[
+
+
+&lt;img src="img/Imagen3.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+----
+
+
+`$$ES = E[R / ( R &lt; VaR )] \nonumber$$`
+
+----
+
+
+]
+
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;¿Qué es el horizonte temporal en el VaR?&lt;/span&gt;
+
+
+- Es el **periodo de tiempo sobre el cual se mide el riesgo**.
+- Ejemplos comunes: 1 día, 10 días, 1 mes.
+- A mayor horizonte, mayor incertidumbre → mayor VaR.
+
+### Ejemplo práctico con Netflix
+
+- Supongamos que tienes **retornos diarios** de Netflix por 1 año.
+- Si calculas el **VaR histórico** usando esa serie:
+
+### - El horizonte es **1 día**.
+
+¿Por qué?
+&gt; Porque cada punto de tu muestra representa la pérdida o ganancia en un solo día. Por tanto, el percentil refleja el riesgo de **una jornada**.
+
+---
+
+
+# &lt;span style="font-size: 46px; font-weight: bold;"&gt;Código en R&lt;/span&gt;
+
+
+
+.scroll-output[
+
+
+```r
+library(quantmod)
+library(PerformanceAnalytics)
+library(yahoofinancer)
+
+
+
+#########Fecha inicial de descarga de datos
+maxDate = "2005-01-01"
+
+#Serie a descargar
+tick&lt;-"NFLX"
+
+#Obtener la serie de precios desde Yahoo Finance
+
+# La siguiente linea funciona con la libreria de quantmod
+# Actualmente está presentado problemas
+#prices &lt;- Ad(getSymbols(tick, src="yahoo", auto.assign = FALSE, from=maxDate))
+#plot(prices)
+#View(prices)
+
+
+# Actualmente se puede utilizar esta otra librería
+# library(yahoofinancer)
+
+
+accion &lt;- Ticker$new(tick)
+
+# Cargo los datos desde la API
+prices&lt;- accion$get_history(start = maxDate, interval = '1d')
+
+
+View(prices)
+
+
+# Esta libreria me permite convertir la data a serie de tiempo
+library(xts)
+
+# Tomar la columna 'close' y convertirla a xts
+close_prices &lt;- xts(prices$close, order.by = as.Date(prices$date))
+
+
+# Grafico
+plot(close_prices, main="Precio de cierre NFLX")
+
+chartSeries(close_prices)
+
+chartSeries(close_prices, theme = chartTheme("white"), 
+            name = "Precio de cierre NFLX", type = "line")
+
+
+
+#Calcular retornos
+rets &lt;- dailyReturn(close_prices)
+plot(rets)
+hist(rets)
+hist(rets,breaks = 60)
+
+# Un gafico más estilizado
+# utilizando library(PerformanceAnalytics)
+chart.Histogram(rets, 
+                main = "Distribución de retornos diarios - NFLX", 
+                col = "darkred", 
+                methods = c("add.normal", "add.rug"))
+
+
+
+library(tseries)
+jarque.bera.test(rets)
+
+# Rechazo la hipotesis de normalidad si pvalue &lt; 0.05
+# los retornos no son normales
+
+
+#Calcular VaR y CVaR
+VaR(rets,p=0.95,method = "historical")
+quantile(rets,0.05)
+
+
+paste0("Con un 95% de confianza, la pérdida diaria no superará el ", 
+      round(-quantile(rets,0.05)*100,2),
+      "% del valor invertido, bajo condiciones de mercado similares a las históricas.")
+
+
+# Si realizo una inversión de $20.000.000 COP 
+Inversion = 20000000
+
+as.numeric(-quantile(rets,0.05)* Inversion)
+
+
+paste0("En condiciones normales de mercado, hay un 95% de probabilidad de no perder más de $",
+       round(as.numeric(-quantile(rets,0.05)* Inversion)),
+       " pesos en un solo día.",
+       " Pero también implica que hay un 5% de probabilidad de que la pérdida sea mayor.")
+
+
+#Miremos el VaR Condicional
+ES(rets,p=0.95,method = "historical")
+
+
+paste0("Si ocurre un evento extremo más allá del VaR, la pérdida promedio sería de $",
+       round(as.numeric(-ES(rets, p = 0.95, method = "historical")) * Inversion),
+       " pesos. Es decir, si se presenta uno de esos días muy malos, se espera perder en promedio un ",
+       round(-ES(rets, p = 0.95, method = "historical") * 100, 2),
+       "% del valor invertido.")
+
+
+
+# Aunque el test de Jarque-Bera nos dijo que los retornos no 
+# son normales, aplicamos de todos modos el método paramétrico 
+# (gaussiano) para ver qué tan distinta es la estimación 
+# frente al método histórico.
+
+VaR(rets,p=0.95,method = "gaussian")
+ES(rets,p=0.95,method = "gaussian")
+
+
+# El VaR Gaussiano fue más pesimista que el histórico, 
+# lo cual no siempre ocurre.
+# El ES Gaussiano fue menor que el histórico, 
+# lo cual puede ser peligroso, porque subestima el riesgo extremo 
+# si los retornos reales tienen colas pesadas.
+# Este ejercicio sirve para enseñar que asumir normalidad 
+# puede llevar a errores si no se verifica la 
+# distribución real de los datos.
+
+
+
+#####################################################################
+#####################################################################
+#####################################################################
+# PORTAFOLIO
+
+
+#Opción libreria quantmod
+
+#Series que conforman el portafolio
+#tickers&lt;- c("MSFT", "AAPL", "AMZN")
+#Obtener series de precios del portafolio
+#getSymbols(tickers, from=maxDate)
+#View(AAPL)
+
+
+#Opción libreria yahoofinancer
+
+library(yahoofinancer)
+library(xts)
+library(PerformanceAnalytics)
+
+tickers &lt;- c("MSFT", "AAPL", "AMZN")
+maxDate &lt;- "2010-01-01"
+
+#Definir pesos del portafolio
+weights&lt;-c(0.5,0.1,0.4)
+
+
+# Descargar precios con yahoofinancer
+precios_lista &lt;- lapply(tickers, function(tick) {
+  ticker &lt;- Ticker$new(tick)
+  data &lt;- ticker$get_history(start = maxDate, interval = "1d")
+  xts(data$close, order.by = as.Date(data$date))
+})
+
+
+# Unir las series en un solo xts
+names(precios_lista) &lt;- tickers
+Port.prices &lt;- do.call(merge, precios_lista)
+colnames(Port.prices) &lt;- tickers
+
+
+# Visualizar series
+plot(Port.prices, main = "Precios de cierre - Portafolio")
+
+library(dygraphs)
+dygraph(Port.prices, main = "Precios de cierre - Portafolio") %&gt;%
+  dyOptions(colors = c("steelblue", "darkgreen", "firebrick")) %&gt;%
+  dyLegend(show = "always", width = 300)
+
+
+library(tidyverse)
+
+# Convertir xts a data.frame
+df_prices &lt;- fortify.zoo(Port.prices, name = "Fecha") %&gt;% 
+  pivot_longer(-Fecha, names_to = "Ticker", values_to = "Precio")
+
+ggplot(df_prices, aes(x = Fecha, y = Precio, color = Ticker)) +
+  geom_line(size = 1) +
+  labs(title = "Precios de cierre - Portafolio", x = "Fecha", y = "Precio") +
+  theme_minimal() +
+  scale_color_manual(values = c("steelblue", "darkgreen", "firebrick"))
+
+
+#Retornos del portafolio
+Port.returns &lt;- ROC(Port.prices,type="discrete")[-1]
+colnames(Port.returns)&lt;-tickers
+View(Port.returns)
+plot(Port.returns)
+
+VaR(Port.returns,
+    p = 0.95,                     # Nivel de confianza del 95%
+    weights = weights,           # Pesos del portafolio: importancia de cada activo
+    portfolio_method = "component", # Método de portafolio:
+    # "component" calcula la contribución de cada activo al riesgo total
+    method = "historical")          # Método de estimación: basado en los datos históricos de retornos
+
+# Resultados:
+# $hVaR: Valor en Riesgo total del portafolio → 0.0255 = 2.55%
+#       Con un 95% de confianza, la pérdida diaria no superaría el 2.55% del valor total invertido.
+
+# $contribution: contribución marginal de cada activo al VaR (en valor absoluto)
+# $pct_contrib_hVaR: porcentaje que aporta cada activo al VaR total
+# → AMZN aporta el 66%, MSFT el 24.7% y AAPL el 9%. AMZN es el que más riesgo aporta al portafolio.
+
+# ----------------------------------------------------------
+
+# Calcular el Expected Shortfall (ES) o Conditional VaR del portafolio
+
+ES(Port.returns,
+   p = 0.95,                      # Nivel de confianza del 95%
+   weights = weights,            # Pesos del portafolio
+   portfolio_method = "component", # Método: queremos descomponer por contribución
+   method = "historical")          # Método: basado en la historia real de retornos
+
+# Resultados:
+# $-r_exceed/c_exceed: ES total del portafolio → 0.0373 = 3.73%
+#       En los peores días (peor 5% de retornos), se espera perder en promedio 3.73% del portafolio.
+
+# $pct_contrib_hES: contribución porcentual de cada activo al ES total
+# → AMZN y MSFT tienen contribuciones similares (~46%), mientras que AAPL solo el 8%.
+# Esto sugiere que AAPL tiene menor exposición en eventos extremos.
+
+
+
+VaR_modificado &lt;- VaR(Port.returns,
+                      p = 0.95,
+                      weights = weights,                    # pesos del portafolio
+                      portfolio_method = "component",       # descomposición por contribución
+                      method = "modified")                  # Cornish-Fisher
+
+VaR_modificado
+
+
+ES_modificado &lt;- ES(Port.returns,
+                    p = 0.95,
+                    weights = weights,
+                    portfolio_method = "component",
+                    method = "modified")
+
+ES_modificado
+
+
+# Método "modified" usa la aproximación de Cornish-Fisher,
+# que ajusta el cálculo del VaR/ES según la asimetría y curtosis de los retornos.
+# Es útil cuando los retornos no son normales.
+
+############################################################################
+
+
+#Simulación Monte Carlo para el VaR de una acción
+
+
+
+#Instalar librerias
+
+library(quantmod)
+library(xts)
+library(tidyverse)
+library(dplyr)
+
+
+
+#Simulamos un año bursatil
+
+periodos &lt;- 252
+periodos &lt;- periodos - 1
+
+
+AMZN &lt;- Port.prices$AMZN
+
+AMZN_log_returns &lt;- dailyReturn(AMZN, type="log")
+
+# Creamos la función
+
+gbm_sim &lt;- function(periodos, close_prices, vector_returns) {
+  # estimadores de mu y sigma
+  mu &lt;- mean(vector_returns)
+  sig &lt;- sd(vector_returns)
+  fin &lt;- length(vector_returns)
+  ini &lt;- fin - periodos
+  
+  # simulacion
+  sim_actual_values &lt;- AMZN[ini]
+  S &lt;-  vector(mode="numeric", length=periodos) # aqui vamos guardando los valores
+  S[1] &lt;- sim_actual_values
+  for (t in c(2:periodos) ) {
+    new_S &lt;- S[t-1] * exp( (mu-(0.5*sig^2)) + sig * rnorm(1)   )
+    S[t] &lt;- new_S
+  } 
+  return(S)
+}
+
+#Ahora simulamos 1000 realidades distintas
+
+# AHora podemos simular varias veces y plotear:
+n_sims = 1000
+n_periods = 252
+sims &lt;- matrix(NA, ncol=n_sims+1, nrow=n_periods)
+
+for (i in 1:n_sims) {
+  values &lt;-  gbm_sim(periodos = 252, close_prices =  AMZN, vector_returns = AMZN_log_returns)
+  sims[, i] &lt;- values
+}
+sims[, n_sims+1] &lt;- 1:n_periods
+
+# Seteo del plot
+plot(sims[, n_sims+1], sims[,1], type="l",
+     xlab="tiempo", ylab="W(t)", ylim=c(0, 800))
+colors = rainbow(n_sims)
+
+# add lines
+for ( i in 1:n_sims) {
+  lines(sims[, n_sims+1], sims[,i], type="l", col=colors[i])
+}
+
+
+# VALUE AT RISK 
+# En sims, tenemos los PRECIOS simulados. Necesitamos las rentabilidades.
+# Tenemos que convertir, cada columna de sims, en Rentabilidades.
+
+returns_gbm &lt;- apply( sims[,c(1:n_sims)], 2, Delt)
+
+
+# Histograma de todas esas rentabilidades
+hist(returns_gbm, 40)
+
+# Porcentil -- VAR al 95%
+quantile(returns_gbm, c(0.05), na.rm=TRUE) 
+
+
+
+# Histograma de todas esas rentabilidades
+hist(returns_gbm, 40)
+abline(v=quantile(returns_gbm, c(0.05), na.rm=TRUE) )
+
+#Con un nivel de confianza del 95%, 
+#la pérdida máxima esperada en un solo día para 
+#la acción de Amazon (AMZN) no superaría el 3.25% 
+#del valor invertido, según las trayectorias 
+#simuladas bajo un modelo de movimiento browniano geométrico (GBM).
+```
+
+]
+
+---
+
+
+
+class: inverse, center, middle
+background-color: #00081d
+
+
+
+
+.pull-left[
+
+.center[
+&lt;br&gt;&lt;br&gt;
+
+# Gracias!!!
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+
+
+### Preguntas?
+]
+
+
+]
+
+
+.pull-right[
+
+
+.center[
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+
+.center[
+&lt;img style="border-radius: 50%;" src="img/avatar.jpg"
+width="100px" href="https://www.joaquibarandica.com"
+/&gt;
+
+<span>&lt;i class="fas  fa-envelope faa-passing animated "&gt;&lt;/i&gt;</span> orlando.joaqui@correounivalle.edu.co 
+]
+
+
+&lt;img src="img/qr-code.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+
+.center[
+www.joaquibarandica.com
+]
+
+
+
+]
+
+
+]
+
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+----
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="cols_macro.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
