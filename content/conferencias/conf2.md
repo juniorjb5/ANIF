@@ -28,7 +28,7 @@ Guiado por el profesor **Orlando Joaqui Barandica, PhD**, este espacio está dis
 
 
 
-<iframe src="/ANIF/slides/VaR/VaR.html" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="/slides/VaR/VaR.html" width="100%" height="600px" style="border:none;"></iframe>
 
 
 
