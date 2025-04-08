@@ -105,5 +105,24 @@ Puedes visitar el [enlace](https://juniorjb5.shinyapps.io/TableroVaR/) o ejecuta
 
 
 
+## 📊 Python
+
+
+## 📓 Accede al notebook del taller
+
+👉 [Haz clic aquí para ver el notebook en Google Colab](https://colab.research.google.com/drive/1TBEAjhzGCDYb2kimgJeOep3v_1qfO6VK?usp=sharing)
+
+
+
+<iframe src="https://colab.research.google.com/drive/1TBEAjhzGCDYb2kimgJeOep3v_1qfO6VK?usp=sharing" 
+        width="100%" 
+        height="800px" 
+        style="border: none;">
+</iframe>
+
+
+
+
+
 
 
