@@ -9,6 +9,6 @@ blogdown::stop_server()
 
 git add .
 
-git commit -m "Act.07.04.2025_2"
+git commit -m "Act.08.04.2025_1"
 
 git push origin main
