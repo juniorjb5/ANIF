@@ -114,7 +114,9 @@ Puedes visitar el [enlace](https://juniorjb5.shinyapps.io/TableroVaR/) o ejecuta
 
 
 <div style="text-align: center;">
-<img src="https://juniorjb5.github.io/ANIF/images/conf2_1.png"  width="500">
+  <a href="https://colab.research.google.com/drive/1TBEAjhzGCDYb2kimgJeOep3v_1qfO6VK?usp=sharing" target="_blank">
+    <img src="https://juniorjb5.github.io/ANIF/images/conf2_1.png" width="1200">
+  </a>
 </div>
 
 
