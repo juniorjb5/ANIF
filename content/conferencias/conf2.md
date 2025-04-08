@@ -107,36 +107,15 @@ Puedes visitar el [enlace](https://juniorjb5.shinyapps.io/TableroVaR/) o ejecuta
 
 ## 📊 Python
 
-
-
-## 🧠 Notebook Interactivo del Taller
-
-📥 También puedes descargar el notebook original en formato `.ipynb` 👉 [Descargar](../../notebooks/Var_Methods.ipynb)
-
-<iframe src="/notebooks/Var_Methods.html"
-        width="100%"
-        height="1200px"
-        style="border: none;">
-</iframe>
-
-
----
-
-
-
-
 ## 📓 Accede al notebook del taller
 
 👉 [Haz clic aquí para ver el notebook en Google Colab](https://colab.research.google.com/drive/1TBEAjhzGCDYb2kimgJeOep3v_1qfO6VK?usp=sharing)
 
 
 
-<iframe src="https://colab.research.google.com/drive/1TBEAjhzGCDYb2kimgJeOep3v_1qfO6VK?usp=sharing" 
-        width="100%" 
-        height="800px" 
-        style="border: none;">
-</iframe>
-
+<div style="text-align: center;">
+<img src="https://juniorjb5.github.io/ANIF/images/conf2_1.png"  width="500">
+</div>
 
 
 
