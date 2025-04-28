@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Tue, 01 Apr 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/finanzas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiénes somos</title>
@@ -15,6 +15,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/quienessomos/</guid>
       <description>&lt;h2 id=&#34;sobre-el-semillero-de-investigación-anif&#34;&gt;Sobre el Semillero de Investigación ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; nace como una extensión del &lt;strong&gt;Grupo de Investigación en Finanzas Cuantitativas (GIFINC)&lt;/strong&gt;, de la &lt;strong&gt;Escuela de Ingeniería Industrial&lt;/strong&gt; de la Universidad del Valle. ANIF tiene como propósito fomentar la investigación y la formación en áreas estratégicas como la &lt;strong&gt;ingeniería financiera&lt;/strong&gt;, &lt;strong&gt;economía energética&lt;/strong&gt; y &lt;strong&gt;análisis de mercados&lt;/strong&gt;, entre otros.&lt;/p&gt;&#xA;&lt;p&gt;ANIF está diseñado para que los estudiantes puedan desarrollar proyectos de investigación aplicados, fortalecer sus competencias analíticas y técnicas, y contribuir a la generación de conocimiento en temas clave para los mercados financieros y la economía.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Presentaciones de retos en VaR</title>
+      <link>http://localhost:4321/ANIF/conferencias/conf3/</link>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/conferencias/conf3/</guid>
+      <description>&lt;p&gt;En esta jornada, los estudiantes del &lt;strong&gt;Semillero ANIF&lt;/strong&gt; mostrarán sus capacidades analíticas y estratégicas a través de la presentación de sus retos: asesorar a un inversionista global interesado en construir portafolios diversificados con hasta cinco acciones internacionales.&lt;/p&gt;&#xA;&lt;p&gt;Cada grupo de estudiantes diseñó propuestas de inversión adaptadas a diferentes perfiles de riesgo (conservador, moderado y agresivo), calculando rentabilidades esperadas, Valor en Riesgo (VaR), y analizando la diversificación y la exposición al riesgo sistémico.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taller de Valor en Riesgo (VaR)</title>
