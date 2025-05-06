@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reto estudiantil: Aplicación de VaR a contextos reales</title>
+      <link>http://localhost:4321/ANIF/posts/post_04/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_04/</guid>
+      <description>&lt;h2 id=&#34;aplicación-práctica-del-valor-en-riesgo-var&#34;&gt;Aplicación práctica del Valor en Riesgo (VaR)&lt;/h2&gt;&#xA;&lt;p&gt;Como parte de las actividades del Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF), se propuso un reto a los estudiantes para aplicar herramientas de análisis cuantitativo al cálculo del &lt;strong&gt;Valor en Riesgo (VaR)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;📉 A partir de un conjunto de datos financieros reales y guiados por sesiones prácticas en R y Python, los equipos desarrollaron análisis completos, desde el tratamiento de datos hasta la estimación de métricas como &lt;strong&gt;VaR histórico, paramétrico y condicional (CVaR)&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Evaluación del riesgo financiero de un sistema de distritos de refrigeración</title>
       <link>http://localhost:4321/ANIF/posts/post_03/</link>

@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head><script src="/ANIF/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=ANIF/livereload" data-no-instant defer></script>
+
+<title>Reto estudiantil: Aplicación de VaR a contextos reales | Semillero ANIF Univalle</title>
+<meta charset="utf-8" />
+<link rel="icon" href="/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/ANIF/style.css" />
+   
+   
+<link rel="icon" href="https://juniorjb5.github.io/ANIF/favicon.ico" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+  <meta name="twitter:title" content="Reto estudiantil: Aplicación de VaR a contextos reales">
+  <meta name="twitter:description" content="Estudiantes del semillero ANIF asumieron el reto de aplicar herramientas cuantitativas de riesgo financiero a casos reales. Aquí compartimos los informes desarrollados.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+            selector: '.glightbox', 
+            touchNavigation: true,
+            loop: true,
+            zoomable: true,
+            autoplayVideos: true
+        });
+        console.log('✅ GLightbox cargado correctamente');
+    });
+</script>
+<meta property="og:url" content="http://localhost:4321/ANIF/posts/post_04/">
+  <meta property="og:site_name" content="Semillero ANIF Univalle">
+  <meta property="og:title" content="Reto estudiantil: Aplicación de VaR a contextos reales">
+  <meta property="og:description" content="Estudiantes del semillero ANIF asumieron el reto de aplicar herramientas cuantitativas de riesgo financiero a casos reales. Aquí compartimos los informes desarrollados.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-05T00:00:00+00:00">
+    <meta property="article:tag" content="Finanzas Cuantitativas">
+    <meta property="article:tag" content="Valor en Riesgo">
+    <meta property="article:tag" content="Simulación">
+    <meta property="article:tag" content="Talleres Estudiantiles">
+    <meta property="article:tag" content="Educación Financiera">
+    <meta property="og:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper"><div id="header">
+    <div id="logo-wrapper"><h1><a href="http://localhost:4321/ANIF/" id="logo">
+        Semillero ANIF Univalle
+    </a></h1></div>
+
+    <nav id="nav">
+        <ul>
+                <li class="">
+                    <a href="/ANIF/">Inicio</a>
+                <li class="">
+                    <a href="/ANIF/quienessomos/">Quiénes somos</a>
+                <li class="current">
+                    <a href="/ANIF/posts/">Publicaciones</a>
+                <li class="">
+                    <a href="/ANIF/conferencias/">Eventos</a>
+                <li class="">
+                    <a href="/ANIF/integrantes/">Integrantes</a>
+                <li class="">
+                    <a href="/ANIF/gifinc/">Grupo de Investigación GIFINC</a>
+                <li class="">
+                    <a href="/ANIF/gallery/">Galería de Fotos</a>
+        </ul>
+    </nav>
+</div>
+
+
+            <section class="wrapper style1">
+                <div class="container">
+                    <div class="row gtr-200">
+                            <div class="col-4 col-12-narrower">
+                                <div id="sidebar">
+<section>
+    <h3></h3>
+    <p>Somos un grupo de profesionales y estudiantes apasionados por la analítica y las finanzas, enfocados en desarrollar soluciones innovadoras y generar impacto en el mundo financiero.</p>
+    <footer>
+        <a href="/contacto" class="button"></a>
+    </footer>
+</section>
+
+
+
+<hr style="border: none; height: 5px; background-color: #f0f0f0; width: 100% !important; margin: 20px auto !important;">
+
+<br>
+
+
+
+<section>
+    <h3>Enlaces de interés</h3>
+    <h3></h3>
+    <ul class="links">
+        <li><a href="https://www.univalle.edu.co/">La Universidad</a></li>
+        <li><a href="https://ingenieria.univalle.edu.co/">La Facultad</a></li>
+        <li><a href="https://industrial.univalle.edu.co/">La Escuela</a></li>
+        <li><a href="https://www.semilleroanifunivalle.com/integrantes/">Conoce a Nuestro Equipo</a></li>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" target="_blank">Síguenos en LinkedIn</a></li>
+    </ul>
+    <footer>
+        <a href="/proyectos" class="button"></a>
+    </footer>
+</section>
+
+
+
+                                </div>
+                            </div>
+
+                        <div class="col-8 col-12-narrower imp-narrower">
+                            <div id="content">
+                                <article>
+    <header>
+        <h2>Reto estudiantil: Aplicación de VaR a contextos reales</h2>
+        <p>Estudiantes del semillero ANIF asumieron el reto de aplicar herramientas cuantitativas de riesgo financiero a casos reales. Aquí compartimos los informes desarrollados.</p>
+        
+        <ul class="tags"><li><a href="/ANIF/tags/finanzas-cuantitativas/">Finanzas Cuantitativas</a><li><a href="/ANIF/tags/valor-en-riesgo/">Valor en Riesgo</a><li><a href="/ANIF/tags/simulaci%C3%B3n/">Simulación</a><li><a href="/ANIF/tags/talleres-estudiantiles/">Talleres Estudiantiles</a><li><a href="/ANIF/tags/educaci%C3%B3n-financiera/">Educación Financiera</a>
+</ul>
+
+    </header>
+    <span class="image featured">
+        <img src="https://juniorjb5.github.io/ANIF/images/post04.jpg" alt="" 
+            style="
+                max-width: 600px;
+                height: auto;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+                margin: 0 auto;
+            " />
+    </span>
+<h2 id="aplicación-práctica-del-valor-en-riesgo-var">Aplicación práctica del Valor en Riesgo (VaR)</h2>
+<p>Como parte de las actividades del Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF), se propuso un reto a los estudiantes para aplicar herramientas de análisis cuantitativo al cálculo del <strong>Valor en Riesgo (VaR)</strong>.</p>
+<p>📉 A partir de un conjunto de datos financieros reales y guiados por sesiones prácticas en R y Python, los equipos desarrollaron análisis completos, desde el tratamiento de datos hasta la estimación de métricas como <strong>VaR histórico, paramétrico y condicional (CVaR)</strong>.</p>
+<p>🎓 A continuación, compartimos los informes finales presentados por cada equipo:</p>
+<hr>
+<h3 id="-informe--equipo-1">📄 Informe – Equipo 1</h3>
+<p><strong>Autores:</strong> Alvarez, Candia, Malpud, Román</p>
+<iframe src="/ANIF/files/equipo1.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-2">📄 Informe – Equipo 2</h3>
+<p><strong>Autores:</strong> Angélica Narváez Hernández</p>
+<iframe src="/ANIF/files/equipo2.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-3">📄 Informe – Equipo 3</h3>
+<p><strong>Autores:</strong> Canchingre, Cruz, Esteban, Marvin, Laura</p>
+<iframe src="/ANIF/files/equipo3.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-4">📄 Informe – Equipo 4</h3>
+<p><strong>Autores:</strong> David Santiago Acosta Tombé &amp; Brayan David Reina Molina</p>
+<iframe src="/ANIF/files/equipo4.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-5">📄 Informe – Equipo 5</h3>
+<p><strong>Autores:</strong> Gutierrez de Piñerez D, Torres L., Arcos Diego, Giraldo J</p>
+<iframe src="/ANIF/files/equipo5.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-6">📄 Informe – Equipo 6</h3>
+<p><strong>Autores:</strong> Joseth Loaiza, Miguel Naranjo, Angela Ospina</p>
+<iframe src="/ANIF/files/equipo6.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h3 id="-informe--equipo-7">📄 Informe – Equipo 7</h3>
+<p><strong>Autores:</strong> Juan David Arango Quintero, Alvaro Ramírez Quintero &amp; Laura Zambrano Núñez</p>
+<iframe src="/ANIF/files/equipo7.pdf" width="100%" height="600px"></iframe>
+<hr>
+<h2 id="-desde-el-semillero-anif">💬 Desde el semillero ANIF</h2>
+<p>Este tipo de ejercicios reafirman el compromiso del semillero con la formación aplicada, donde se integran teoría, datos y herramientas reales para enfrentar los retos de la ingeniería financiera actual.</p>
+
+
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://www.univalle.edu.co/">Universidad del Valle</a><li><a href="https://ingenieria.univalle.edu.co/">Facultad de Ingeniería</a><li><a href="https://industrial.univalle.edu.co/">Escuela de Ingeniería Industrial</a>
+                    </ul>
+                </section>
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013799">GrupLAC</a><li><a href="https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque">Director </a>
+                    </ul>
+                </section>
+            <section class="col-6 col-12-narrower">
+    <h3>Contáctanos</h3>
+    <div>
+        <p>
+            📧 <a href="mailto:investigacion.gifinc@correounivalle.edu.co" style="text-decoration: none; color: inherit;">investigacion.gifinc@correounivalle.edu.co</a>
+        </p>
+        <p>
+            📍 Calle 13 No. 100 - 00, <br>
+Edificio E23 - Ciudadela Universitaria Meléndez <br>
+Universidad del Valle <br>
+Cali, Colombia
+        </p>
+    </div>
+</section>
+
+        </div>
+    </div>
+
+    <ul class="icons">
+        <li><a href="#" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+        </a>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" class="icon brands fa-linkedin-in">
+            <span class="label">LinkedIn</span>
+        </a>
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>© All rights reserved
+            
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
+                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
+        </ul>
+    </div>
+</div>
+</div><script src="/ANIF/js/jquery.min.js"></script>
+<script src="/ANIF/js/jquery.dropotron.min.js"></script>
+<script src="/ANIF/js/browser.min.js"></script>
+<script src="/ANIF/js/breakpoints.min.js"></script>
+<script src="/ANIF/js/util.js"></script>
+<script src="/ANIF/js/main.js"></script>
+</body>
+</html>
