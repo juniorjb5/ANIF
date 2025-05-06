@@ -24,43 +24,43 @@ Como parte de las actividades del Semillero de Investigación en Analítica e In
 
 ### 📄 Informe – Equipo 1  
 **Autores:** Alvarez, Candia, Malpud, Román  
-<iframe src="/ANIF/files/equipo1.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo1.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 2  
 **Autores:** Angélica Narváez Hernández  
-<iframe src="/ANIF/files/equipo2.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo2.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 3  
 **Autores:** Canchingre, Cruz, Esteban, Marvin, Laura  
-<iframe src="/ANIF/files/equipo3.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo3.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 4  
 **Autores:** David Santiago Acosta Tombé & Brayan David Reina Molina  
-<iframe src="/ANIF/files/equipo4.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo4.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 5  
 **Autores:** Gutierrez de Piñerez D, Torres L., Arcos Diego, Giraldo J  
-<iframe src="/ANIF/files/equipo5.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo5.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 6  
 **Autores:** Joseth Loaiza, Miguel Naranjo, Angela Ospina  
-<iframe src="/ANIF/files/equipo6.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo6.pdf" width="100%" height="600px"></iframe>
 
 ---
 
 ### 📄 Informe – Equipo 7  
 **Autores:** Juan David Arango Quintero, Alvaro Ramírez Quintero & Laura Zambrano Núñez  
-<iframe src="/ANIF/files/equipo7.pdf" width="100%" height="600px"></iframe>
+<iframe src="/files/equipo7.pdf" width="100%" height="600px"></iframe>
 
 ---
 
