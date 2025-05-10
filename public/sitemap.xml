@@ -55,10 +55,16 @@
     <loc>http://localhost:4321/ANIF/conferencias/conf3/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-de-proyectos/</loc>
+    <lastmod>2025-04-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
     <lastmod>2025-04-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/machine-learning/</loc>
+    <lastmod>2025-04-01T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf4/</loc>
     <lastmod>2025-04-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/conf2/</loc>

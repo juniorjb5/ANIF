@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/conferencias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taller de Evaluación de Riesgo Financiero en Proyectos de Ingeniería</title>
+      <link>http://localhost:4321/ANIF/conferencias/conf4/</link>
+      <pubDate>Thu, 01 May 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/conferencias/conf4/</guid>
+      <description>&lt;p&gt;Acompáñanos en esta sesión práctica sobre &lt;strong&gt;Evaluación del Riesgo Financiero en Proyectos de Ingeniería&lt;/strong&gt;, donde se abordarán aspectos generales de la identificación y cuantificación de riesgos financieros aplicando métricas como el Valor en Riesgo (VaR) y el Valor en Riesgo Condicional (CVaR).&lt;/p&gt;&#xA;&lt;p&gt;En la primera parte, la profesora &lt;strong&gt;Yessenia Martínez&lt;/strong&gt; compartirá una charla basada en uno de sus trabajos de investigación, titulado &lt;strong&gt;“La evaluación del riesgo financiero en sistemas de refrigeración urbana”&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Presentaciones de retos en VaR</title>
       <link>http://localhost:4321/ANIF/conferencias/conf3/</link>
