@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Educación Financiera on Semillero ANIF Univalle</title>
-    <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
-    <description>Recent content in Educación Financiera on Semillero ANIF Univalle</description>
+    <title>Certificaciones Financieras on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/certificaciones-financieras/</link>
+    <description>Recent content in Certificaciones Financieras on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/certificaciones-financieras/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avances y Proyecciones del Semillero ANIF</title>
       <link>http://localhost:4321/ANIF/posts/post_05/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/posts/post_05/</guid>
       <description>&lt;h2 id=&#34;-avances-y-proyecciones-del-semillero-anif&#34;&gt;🌟 Avances y Proyecciones del Semillero ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; continúa consolidándose como un espacio clave para fomentar la investigación en finanzas y analítica. En el más reciente encuentro se socializó la &lt;strong&gt;presente página web&lt;/strong&gt; del semillero, que permitirá documentar y difundir de manera organizada las actividades y resultados.&lt;/p&gt;&#xA;&lt;p&gt;Uno de los puntos más importantes fue la propuesta de otorgar un rol más activo a los estudiantes mediante la creación de líderes estudiantiles, quienes facilitarán la coordinación de proyectos y la articulación con empresas. Además, se anunció un &lt;strong&gt;convenio con la Organización de Administración del Mercado de Valores&lt;/strong&gt;, que brindará la posibilidad de obtener &lt;strong&gt;certificaciones financieras&lt;/strong&gt; que abren las puertas al mercado laboral y representan un gran diferencial al momento de ser contratados en la industria económica, todo esto directamente en la Universidad del Valle.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Reto estudiantil: Aplicación de VaR a contextos reales</title>
-      <link>http://localhost:4321/ANIF/posts/post_04/</link>
-      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/post_04/</guid>
-      <description>&lt;h2 id=&#34;aplicación-práctica-del-valor-en-riesgo-var&#34;&gt;Aplicación práctica del Valor en Riesgo (VaR)&lt;/h2&gt;&#xA;&lt;p&gt;Como parte de las actividades del Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF), se propuso un reto a los estudiantes para aplicar herramientas de análisis cuantitativo al cálculo del &lt;strong&gt;Valor en Riesgo (VaR)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;📉 A partir de un conjunto de datos financieros reales y guiados por sesiones prácticas en R y Python, los equipos desarrollaron análisis completos, desde el tratamiento de datos hasta la estimación de métricas como &lt;strong&gt;VaR histórico, paramétrico y condicional (CVaR)&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

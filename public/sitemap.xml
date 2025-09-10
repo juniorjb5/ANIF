@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
     <lastmod>2025-05-01T12:00:00+00:00</lastmod>
@@ -19,8 +19,26 @@
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
   </url><url>
+    <loc>http://localhost:4321/ANIF/posts/post_05/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/certificaciones-financieras/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas-digitales/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/proyectos-estudiantiles/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/talleres-pr%C3%A1cticos/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/finanzas-cuantitativas/</loc>
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
@@ -29,9 +47,6 @@
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/simulaci%C3%B3n/</loc>
-    <lastmod>2025-05-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/talleres-estudiantiles/</loc>
