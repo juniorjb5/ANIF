@@ -1,7 +1,7 @@
 ---
 title: "Avances y Proyecciones del Semillero ANIF"
 image: images/post05_1.jpg
-date: "2025-05-15T00:00:00"
+date: "2025-09-08T00:00:00"
 tags:
   - Educación Financiera
   - Finanzas Digitales
@@ -22,7 +22,7 @@ Como parte del encuentro, se realizó una lluvia de ideas en la que los estudian
 
 
 <div style="text-align:center;">
-  <img src="/ANIF/images/post05_2.jpg" alt="Lluvia de ideas" width="600">
+  <img src="https://juniorjb5.github.io/ANIF/images/post05_2.jpg" alt="Lluvia de ideas" width="600">
 </div>
 
 En el espacio también se resaltó la importancia de la **educación financiera** y la necesidad de transformar la dinámica del grupo hacia una participación más activa. Se discutieron iniciativas como la realización de charlas sobre inversión y riesgo, la posibilidad de realizar publicaciones con aportes del semillero y el abordaje de temas de actualidad como la **regla fiscal** y sus implicaciones.  
