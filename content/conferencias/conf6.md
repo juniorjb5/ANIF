@@ -14,7 +14,7 @@ description: Te invitamos a participar en la Segunda Sesión del Semillero ANIF,
 
 El Semillero ANIF continúa con su ciclo de actividades académicas. En esta oportunidad realizaremos la **Segunda Sesión sobre Gestión de Portafolios de Renta Variable**, un espacio diseñado para fortalecer competencias prácticas y teóricas en inversión y análisis financiero.  
 
-### **La jornada se dividirá en dos secciones:** ###
+### **La jornada se dividirá en dos sesiones:** ###
 
 -  **Charla académica**  
 A cargo del profesor **Diego Fernando Manotas Duque, PhD.**, director del Semillero ANIF, quien abordará los fundamentos esenciales de la **gestión de portafolios de renta variable**. La charla se centrará en el análisis de los portafolios a la luz de las **rúbricas de la AMV**, ofreciendo una guía sólida para la toma de decisiones financieras. Estos temas son fundamentales para comprender mejor el comportamiento de nuestras acciones y tomar decisiones de inversión coherentes con los escenarios simulados.  
