@@ -11,7 +11,7 @@
     <lastmod>2025-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
-    <lastmod>2025-05-01T12:00:00+00:00</lastmod>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
@@ -40,6 +40,24 @@
     <loc>http://localhost:4321/ANIF/tags/talleres-pr%C3%A1cticos/</loc>
     <lastmod>2025-09-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/gesti%C3%B3n-de-portafolios/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf6/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/renta-variable/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/simulador-investopedia/</loc>
+    <lastmod>2025-08-29T16:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/tags/finanzas-cuantitativas/</loc>
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,12 +80,6 @@
     <lastmod>2025-05-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-de-proyectos/</loc>
-    <lastmod>2025-05-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
-    <lastmod>2025-05-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
     <lastmod>2025-05-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/inversiones/</loc>

@@ -45,6 +45,41 @@
       <description></description>
     </item>
     <item>
+      <title>Finanzas</title>
+      <link>http://localhost:4321/ANIF/tags/finanzas/</link>
+      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/finanzas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestión De Portafolios</title>
+      <link>http://localhost:4321/ANIF/tags/gesti%C3%B3n-de-portafolios/</link>
+      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/gesti%C3%B3n-de-portafolios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ingeniería Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</link>
+      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Renta Variable</title>
+      <link>http://localhost:4321/ANIF/tags/renta-variable/</link>
+      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/renta-variable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulador Investopedia</title>
+      <link>http://localhost:4321/ANIF/tags/simulador-investopedia/</link>
+      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/simulador-investopedia/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Finanzas Cuantitativas</title>
       <link>http://localhost:4321/ANIF/tags/finanzas-cuantitativas/</link>
       <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
@@ -84,20 +119,6 @@
       <link>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-de-proyectos/</link>
       <pubDate>Thu, 01 May 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-de-proyectos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Finanzas</title>
-      <link>http://localhost:4321/ANIF/tags/finanzas/</link>
-      <pubDate>Thu, 01 May 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/finanzas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ingeniería Financiera</title>
-      <link>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</link>
-      <pubDate>Thu, 01 May 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</guid>
       <description></description>
     </item>
     <item>
