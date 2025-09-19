@@ -10,6 +10,19 @@ slug: "integrantes"
 ---
 
 
+<style>
+/* ==== LISTA SEMILLERO ==== */
+.semillero-lista ul {
+  columns: 2; /* dos columnas automáticas */
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+</style>
+
 
 
 
@@ -82,45 +95,71 @@ slug: "integrantes"
 
 ---
 
-## Estudiantes Cohorte 2025-I  
 
-<div style="display: flex; justify-content: center; gap: 40px;">
 
-<div style="width: 45%; text-align: left; line-height: 1.8;">
+<style>
+/* ==== LISTA SEMILLERO ==== */
+.semillero-lista ul {
+  columns: 2; /* dos columnas automáticas */
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1;
+}
 
-- Ángela María Ospina – angela.maria.ospina@correounivalle.edu.co  
-- Ana Saba – ana.saba@correounivalle.edu.co  
-- Brayan Reina – brayan.reina@correounivalle.edu.co  
-- Carlos Arturo Cruz – carlos.arturo.cruz@correounivalle.edu.co  
-- Claudia Román – claudia.roman@correounivalle.edu.co  
-- Daniela Maiguel – daniela.maiguel@correounivalle.edu.co  
-- Danilo Álvarez – danilo.alvarez@correounivalle.edu.co  
-- Diego Felipe Arcos – diego.felipe.arcos@correounivalle.edu.co  
-- Evan Candia – evan.candia@correounivalle.edu.co  
-- Fabián Andrés Álvarez – fabian.andres.alvarez@correounivalle.edu.co  
-- Joseth Loaiza – joseth.loaiza@correounivalle.edu.co  
-- Juan Arango Quintero – juan.arango.quintero@correounivalle.edu.co  
-- Juan Jiménez V. – juan.jimenez.v@correounivalle.edu.co  
+.semillero-lista li {
+  color: #000; /* Color negro para los nombres */
+  margin-bottom: 8px;
+}
+.semillero-lista a {
+  color: #c00;  /* o el color que quieras */
+  text-decoration: none;
+}
+.semillero-lista a:hover {
+  color: #c00;  /* rojo al pasar el mouse */
+  text-decoration: underline;
+}
 
+</style>
+
+
+
+<div class="semillero-lista">
+  <h2>Estudiantes Semillero Cohorte 2025-II</h2>
+    <ul>
+            <li>Camilo Barato – <a href="mailto:camilo.barato@correounivalle.edu.co">camilo.barato@correounivalle.edu.co</a></li>
+            <li>Luisa Maria Jimenez – <a href="mailto:luisa.maria.jimenez@correounivalle.edu.co">luisa.maria.jimenez@correounivalle.edu.co</a></li>
+            <li>Maria Camila Gomez – <a href="mailto:maria.gomez@correounivalle.edu.co">maria.gomez@correounivalle.edu.co</a></li>
+            <li>Harrison Enriquez – <a href="mailto:harrison.enriquez@correounivalle.edu.co">harrison.enriquez@correounivalle.edu.co</a></li>
+            <li>Santiago Blanco – <a href="mailto:santiago.blanco@correounivalle.edu.co">santiago.blanco@correounivalle.edu.co</a></li>
+            <li>Claudia Roman – <a href="mailto:claudia.roman@correounivalle.edu.co">claudia.roman@correounivalle.edu.co</a></li>
+            <li>Santiago Naced – <a href="mailto:santiago.naced@correounivalle.edu.co">santiago.naced@correounivalle.edu.co</a></li>
+            <li>Lorena Orozco – <a href="mailto:orozco.lorena@correounivalle.edu.co">orozco.lorena@correounivalle.edu.co</a></li>
+            <li>Laura Tatiana Torres – <a href="mailto:laura.tatiana.torres@correounivalle.edu.co">laura.tatiana.torres@correounivalle.edu.co</a></li>
+            <li>Angelica Narvaez – <a href="mailto:narvaez.angelica@correounivalle.edu.co">narvaez.angelica@correounivalle.edu.co</a></li>
+            <li>Stefany Herrera – <a href="mailto:stefany.herrera@correounivalle.edu.co">stefany.herrera@correounivalle.edu.co</a></li>
+            <li>April Diaz – <a href="mailto:april.diaz@correounivalle.edu.co">april.diaz@correounivalle.edu.co</a></li>
+            <li>Sara Sofia Cortes – <a href="mailto:sara.cortes@correounivalle.edu.co">sara.cortes@correounivalle.edu.co</a></li>
+            <li>Felipe Blandon – <a href="mailto:felipe.blandon@correounivalle.edu.co">felipe.blandon@correounivalle.edu.co</a></li>
+            <li>Javier Meneses – <a href="mailto:meneses.javier@correounivalle.edu.co">meneses.javier@correounivalle.edu.co</a></li>
+            <li>Miguel Garces – <a href="mailto:miguel.garces.diaz@correounivalle.edu.co">miguel.garces.diaz@correounivalle.edu.co</a></li>
+            <li>Juan Sebastian Quintero – <a href="mailto:juan.sebastian.quintero@correounivalle.edu.co">juan.sebastian.quintero@correounivalle.edu.co</a></li>
+            <li>Daniela Maiguel – <a href="mailto:daniela.maiguel@correounivalle.edu.co">daniela.maiguel@correounivalle.edu.co</a></li>
+            <li>Johan Portilla – <a href="mailto:johan.portilla@correounivalle.edu.co">johan.portilla@correounivalle.edu.co</a></li>
+            <li>Jhon Escobar – <a href="mailto:jhon.mario.escobar@correounivalle.edu.co">jhon.mario.escobar@correounivalle.edu.co</a></li>
+            <li>Sebastian Roman – <a href="mailto:sebastian.roman@correounivalle.edu.co">sebastian.roman@correounivalle.edu.co</a></li>
+            <li>Hector Diaz – <a href="mailto:hector.diaz@correounivalle.edu.co">hector.diaz@correounivalle.edu.co</a></li>
+            <li>Jose Idrobo – <a href="mailto:idrobo.jose@correounivalle.edu.co">idrobo.jose@correounivalle.edu.co</a></li>
+            <li>Santiago Carabali – <a href="mailto:santiago.carabali@correounivalle.edu.co">santiago.carabali@correounivalle.edu.co</a></li>
+            <li>Fabian Andres Alvarez Gonzalez – <a href="mailto:fabian.andres.alvarez@correounivalle.edu.co">fabian.andres.alvarez@correounivalle.edu.co</a></li>
+            <li>Gustavo Adolfo Fernandez Salcedo – <a href="mailto:fernandez.gustavo@correounivalle.edu.co">fernandez.gustavo@correounivalle.edu.co</a></li>
+            <li>Nicolle Andrea Muñoz Bravo – <a href="mailto:munoz.nicolle@correounivalle.edu.co">munoz.nicolle@correounivalle.edu.co</a></li>
+            <li>Joan Sebastian Aguirre Aldana – <a href="mailto:joan.aguirre@correounivalle.edu.co">joan.aguirre@correounivalle.edu.co</a></li>  
+  </ul>
 </div>
 
-<div style="width: 45%; text-align: left; line-height: 1.8;">
-
-- Juan M. Giraldo – juan.m.giraldo@correounivalle.edu.co  
-- Kleiner Balanta – kleiner.balanta@correounivalle.edu.co  
-- Laura Tatiana Torres – laura.tatiana.torres@correounivalle.edu.co  
-- Luis F. Ramírez D. – luis.f.ramirez.d@correounivalle.edu.co  
-- Miguel Naranjo – naranjo.miguel@correounivalle.edu.co  
-- Miguel Páez – paez.miguel@correounivalle.edu.co  
-- Rosa Canchingre – rosa.canchingre@correounivalle.edu.co  
-- Sharon Giraldo – sharon.giraldo@correounivalle.edu.co  
-- Yeferson Malpud – yeferson.malpud@correounivalle.edu.co  
-- Angélica Narváez – narvaez.angelica@correounivalle.edu.co  
-- Álvaro Ramírez – ramirez.alvaro@correounivalle.edu.co  
-
-</div>
-
-</div>
 
 
 <div style="text-align: center; margin-top: 40px;">
