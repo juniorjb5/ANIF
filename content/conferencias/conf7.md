@@ -1,7 +1,7 @@
 ---
 title: Introducción y uso de la plataforma LSEG Data & Analytics
 image: images/conf7.jpg
-date: "2025-10-10T12:00:00"
+date: "2025-10-05T12:00:00"
 tags:  
   - Finanzas  
   - Analítica de Datos  
