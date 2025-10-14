@@ -7,40 +7,75 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Fri, 10 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analítica Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/anal%C3%ADtica-financiera/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/anal%C3%ADtica-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datos Financieros</title>
+      <link>http://localhost:4321/ANIF/tags/datos-financieros/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/datos-financieros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educación Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Herramientas De Investigación</title>
+      <link>http://localhost:4321/ANIF/tags/herramientas-de-investigaci%C3%B3n/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/herramientas-de-investigaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LSEG</title>
+      <link>http://localhost:4321/ANIF/tags/lseg/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/lseg/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analítica De Datos</title>
       <link>http://localhost:4321/ANIF/tags/anal%C3%ADtica-de-datos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/anal%C3%ADtica-de-datos/</guid>
       <description></description>
     </item>
     <item>
       <title>Bases De Datos Financieras</title>
       <link>http://localhost:4321/ANIF/tags/bases-de-datos-financieras/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/bases-de-datos-financieras/</guid>
       <description></description>
     </item>
     <item>
       <title>Finanzas</title>
       <link>http://localhost:4321/ANIF/tags/finanzas/</link>
-      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/finanzas/</guid>
       <description></description>
     </item>
     <item>
       <title>Ingeniería Financiera</title>
       <link>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</link>
-      <pubDate>Fri, 29 Aug 2025 16:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</guid>
       <description></description>
     </item>
     <item>
       <title>LSEG Data &amp; Analytics</title>
       <link>http://localhost:4321/ANIF/tags/lseg-data--analytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/lseg-data--analytics/</guid>
       <description></description>
     </item>
@@ -49,13 +84,6 @@
       <link>http://localhost:4321/ANIF/tags/dividendos/</link>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/dividendos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Educación Financiera</title>
-      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
       <description></description>
     </item>
     <item>

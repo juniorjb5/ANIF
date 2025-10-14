@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción y uso de la plataforma LSEG Data &amp; Analytics – Tercera Sesión del Semillero ANIF</title>
+      <link>http://localhost:4321/ANIF/posts/post_07/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_07/</guid>
+      <description>&lt;h2 id=&#34;introducción-y-uso-de-la-plataforma-lseg-data--analytics&#34;&gt;Introducción y uso de la plataforma LSEG Data &amp;amp; Analytics&lt;/h2&gt;&#xA;&lt;p&gt;El pasado 10 de octubre, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) llevó a cabo su tercera sesión académica, titulada &lt;strong&gt;“Introducción y uso de la plataforma LSEG Data &amp;amp; Analytics”&lt;/strong&gt;, dirigida por la profesora &lt;strong&gt;Yessenia Martínez Ruiz, PhD&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentó la plataforma &lt;strong&gt;LSEG Data &amp;amp; Analytics&lt;/strong&gt;, anteriormente conocida como &lt;em&gt;Refinitiv&lt;/em&gt;, resaltando su relevancia como herramienta para el &lt;strong&gt;análisis de datos financieros en tiempo real&lt;/strong&gt;, el seguimiento de portafolios y la descarga de información histórica sobre acciones, bonos y divisas.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dividendos, Acciones y Derecho de Suscripción – Segunda Sesión del Semillero ANIF</title>
       <link>http://localhost:4321/ANIF/posts/post_06/</link>
