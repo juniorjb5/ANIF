@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Sun, 05 Oct 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/finanzas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiénes somos</title>
@@ -15,6 +15,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/quienessomos/</guid>
       <description>&lt;h2 id=&#34;sobre-el-semillero-de-investigación-anif&#34;&gt;Sobre el Semillero de Investigación ANIF&lt;/h2&gt;&#xA;&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; nace como una extensión del &lt;strong&gt;Grupo de Investigación en Finanzas Cuantitativas (GIFINC)&lt;/strong&gt;, de la &lt;strong&gt;Escuela de Ingeniería Industrial&lt;/strong&gt; de la Universidad del Valle. ANIF tiene como propósito fomentar la investigación y la formación en áreas estratégicas como la &lt;strong&gt;ingeniería financiera&lt;/strong&gt;, &lt;strong&gt;economía energética&lt;/strong&gt; y &lt;strong&gt;análisis de mercados&lt;/strong&gt;, entre otros.&lt;/p&gt;&#xA;&lt;p&gt;ANIF está diseñado para que los estudiantes puedan desarrollar proyectos de investigación aplicados, fortalecer sus competencias analíticas y técnicas, y contribuir a la generación de conocimiento en temas clave para los mercados financieros y la economía.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Análisis Fundamental de Compañías</title>
+      <link>http://localhost:4321/ANIF/conferencias/conf8/</link>
+      <pubDate>Fri, 17 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/conferencias/conf8/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;Semillero ANIF&lt;/strong&gt; continúa su ciclo de formación en análisis financiero y toma de decisiones de inversión. En esta ocasión se desarrollará la charla &lt;strong&gt;“Análisis Fundamental de Compañías”&lt;/strong&gt;, a cargo de la &lt;strong&gt;profesora Yessenia Martínez Ruiz, PhD.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentarán los conceptos esenciales del &lt;strong&gt;análisis fundamental&lt;/strong&gt;, destacando su papel en la valoración de empresas y en la comprensión de los factores económicos y financieros que determinan su desempeño en el mercado.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introducción y uso de la plataforma LSEG Data &amp; Analytics</title>
