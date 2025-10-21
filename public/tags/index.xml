@@ -7,40 +7,61 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Análisis Fundamental</title>
       <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-fundamental/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-fundamental/</guid>
       <description></description>
     </item>
     <item>
       <title>Beyond Meat</title>
       <link>http://localhost:4321/ANIF/tags/beyond-meat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/beyond-meat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educación Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finanzas Corporativas</title>
+      <link>http://localhost:4321/ANIF/tags/finanzas-corporativas/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/finanzas-corporativas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Valoración De Empresas</title>
+      <link>http://localhost:4321/ANIF/tags/valoraci%C3%B3n-de-empresas/</link>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/valoraci%C3%B3n-de-empresas/</guid>
       <description></description>
     </item>
     <item>
       <title>Finanzas</title>
       <link>http://localhost:4321/ANIF/tags/finanzas/</link>
-      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/finanzas/</guid>
       <description></description>
     </item>
     <item>
       <title>Ingeniería Financiera</title>
       <link>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</link>
-      <pubDate>Sun, 05 Oct 2025 12:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</guid>
       <description></description>
     </item>
     <item>
       <title>Inversión</title>
       <link>http://localhost:4321/ANIF/tags/inversi%C3%B3n/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/inversi%C3%B3n/</guid>
       <description></description>
     </item>
@@ -56,13 +77,6 @@
       <link>http://localhost:4321/ANIF/tags/datos-financieros/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/datos-financieros/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Educación Financiera</title>
-      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
       <description></description>
     </item>
     <item>

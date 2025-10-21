@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2025-10-10T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
@@ -20,33 +20,42 @@
     <loc>http://localhost:4321/ANIF/gallery/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-fundamental/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/conferencias/conf8/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/ANIF/posts/post_08/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/beyond-meat/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/inversi%C3%B3n/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <loc>http://localhost:4321/ANIF/tags/finanzas-corporativas/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/</loc>
-    <lastmod>2025-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/valoraci%C3%B3n-de-empresas/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf8/</loc>
+    <lastmod>2025-10-10T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
+    <lastmod>2025-10-10T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
+    <lastmod>2025-10-10T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/inversi%C3%B3n/</loc>
+    <lastmod>2025-10-10T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/anal%C3%ADtica-financiera/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/datos-financieros/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/herramientas-de-investigaci%C3%B3n/</loc>

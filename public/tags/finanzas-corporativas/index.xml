@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Análisis Fundamental on Semillero ANIF Univalle</title>
-    <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-fundamental/</link>
-    <description>Recent content in Análisis Fundamental on Semillero ANIF Univalle</description>
+    <title>Finanzas Corporativas on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/finanzas-corporativas/</link>
+    <description>Recent content in Finanzas Corporativas on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/ANIF/tags/an%C3%A1lisis-fundamental/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/finanzas-corporativas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Análisis Fundamental de Compañías – Cuarta Sesión del Semillero ANIF</title>
       <link>http://localhost:4321/ANIF/posts/post_08/</link>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/posts/post_08/</guid>
       <description>&lt;h2 id=&#34;análisis-fundamental-de-compañías&#34;&gt;Análisis Fundamental de Compañías&lt;/h2&gt;&#xA;&lt;p&gt;El pasado &lt;strong&gt;17 de octubre&lt;/strong&gt;, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) desarrolló su cuarta sesión académica titulada &lt;strong&gt;“Análisis Fundamental de Compañías”&lt;/strong&gt;, dirigida por la profesora &lt;strong&gt;Yessenia Martínez Ruiz, PhD&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentaron los &lt;strong&gt;conceptos esenciales del análisis fundamental&lt;/strong&gt;, explicando cómo el estudio de los estados financieros, la rentabilidad, la liquidez y el endeudamiento permiten evaluar el valor real de una empresa y su potencial de crecimiento.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Análisis Fundamental de Compañías</title>
-      <link>http://localhost:4321/ANIF/conferencias/conf8/</link>
-      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/conferencias/conf8/</guid>
-      <description>&lt;p&gt;El &lt;strong&gt;Semillero ANIF&lt;/strong&gt; continúa su ciclo de formación en análisis financiero y toma de decisiones de inversión. En esta ocasión se desarrollará la charla &lt;strong&gt;“Análisis Fundamental de Compañías”&lt;/strong&gt;, a cargo de la &lt;strong&gt;profesora Yessenia Martínez Ruiz, PhD.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentarán los conceptos esenciales del &lt;strong&gt;análisis fundamental&lt;/strong&gt;, destacando su papel en la valoración de empresas y en la comprensión de los factores económicos y financieros que determinan su desempeño en el mercado.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

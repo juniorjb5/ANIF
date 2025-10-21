@@ -1,7 +1,7 @@
 ---
 title: Análisis Fundamental de Compañías  
 image: images/conf8.jpg  
-date: "2025-10-14T09:00:00"  
+date: "2025-10-10T09:00:00"  
 tags:  
   - Finanzas  
   - Inversión  
