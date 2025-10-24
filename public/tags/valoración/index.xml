@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inversión on Semillero ANIF Univalle</title>
-    <link>http://localhost:4321/ANIF/tags/inversi%C3%B3n/</link>
-    <description>Recent content in Inversión on Semillero ANIF Univalle</description>
+    <title>Valoración on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/valoraci%C3%B3n/</link>
+    <description>Recent content in Valoración on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Sat, 18 Oct 2025 09:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/ANIF/tags/inversi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/valoraci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El precio no lo dice todo: Descubriendo el valor real detrás de las acciones</title>
       <link>http://localhost:4321/ANIF/conferencias/conf9/</link>
       <pubDate>Sat, 18 Oct 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/conferencias/conf9/</guid>
       <description>&lt;p&gt;El &lt;strong&gt;Semillero ANIF&lt;/strong&gt; continúa su ciclo de formación en análisis financiero y valoración de empresas con el taller &lt;strong&gt;“El precio no lo dice todo: Descubriendo el valor real detrás de las acciones.”&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta sesión práctica busca analizar si el precio actual de una acción refleja verdaderamente el valor de la empresa, combinando teoría, análisis de datos financieros y toma de decisiones de inversión simuladas.&lt;/p&gt;&#xA;&lt;p&gt;Durante el taller se abordarán los &lt;strong&gt;principios del análisis fundamental&lt;/strong&gt;, explorando cómo los indicadores de rentabilidad, liquidez, endeudamiento y desempeño sectorial permiten estimar el valor real de una compañía más allá de las fluctuaciones del mercado.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Análisis Fundamental de Compañías</title>
-      <link>http://localhost:4321/ANIF/conferencias/conf8/</link>
-      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/conferencias/conf8/</guid>
-      <description>&lt;p&gt;El &lt;strong&gt;Semillero ANIF&lt;/strong&gt; continúa su ciclo de formación en análisis financiero y toma de decisiones de inversión. En esta ocasión se desarrollará la charla &lt;strong&gt;“Análisis Fundamental de Compañías”&lt;/strong&gt;, a cargo de la &lt;strong&gt;profesora Yessenia Martínez Ruiz, PhD.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentarán los conceptos esenciales del &lt;strong&gt;análisis fundamental&lt;/strong&gt;, destacando su papel en la valoración de empresas y en la comprensión de los factores económicos y financieros que determinan su desempeño en el mercado.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
