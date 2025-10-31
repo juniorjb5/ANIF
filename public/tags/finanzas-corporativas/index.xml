@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/finanzas-corporativas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taller Práctico: Valoración de Empresas y Análisis Fundamental</title>
+      <link>http://localhost:4321/ANIF/posts/post_09/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_09/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;27 de octubre&lt;/strong&gt;, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) realizó un taller práctico titulado “El precio no lo dice todo: Descubriendo el valor real detrás de las acciones”, guiado por la estudiante de maestría &lt;strong&gt;Mayra Alejandra Narváez&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El objetivo del taller fue &lt;strong&gt;aplicar herramientas de análisis fundamental&lt;/strong&gt; para evaluar si las empresas del sector tecnológico y financiero están correctamente valoradas en el mercado.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión, los participantes trabajaron en grupos, analizando el comportamiento financiero y bursátil de distintas compañías durante los últimos cinco años. Para ello, se utilizaron herramientas profesionales como &lt;strong&gt;LSEG Analytics (Refinitiv)&lt;/strong&gt;, &lt;strong&gt;Investing&lt;/strong&gt;, &lt;strong&gt;Bloomberg&lt;/strong&gt; y &lt;strong&gt;Yahoo Finance&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Análisis Fundamental de Compañías – Cuarta Sesión del Semillero ANIF</title>
       <link>http://localhost:4321/ANIF/posts/post_08/</link>
