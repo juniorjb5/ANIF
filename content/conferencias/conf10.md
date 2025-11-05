@@ -1,7 +1,7 @@
 ---
 title: "Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF"
 image: images/conf10.jpg
-date: "2025-11-10T16:00:00"
+date: "2025-11-04T16:00:00"
 tags:
   - Riesgo Financiero
   - Renta Variable
