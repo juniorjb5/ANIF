@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head><script src="/ANIF/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=ANIF/livereload" data-no-instant defer></script>
+
+<title>Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF | Semillero ANIF Univalle</title>
+<meta charset="utf-8" />
+<link rel="icon" href="/favicon.png" type="image/png">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/ANIF/style.css" />
+   
+   
+<link rel="icon" href="https://juniorjb5.github.io/ANIF/favicon.ico" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+  <meta name="twitter:title" content="Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF">
+  <meta name="twitter:description" content="En la décima sesión del Semillero ANIF se explorarán las herramientas cuantitativas para medir y gestionar el riesgo financiero en las inversiones de renta variable, combinando teoría, análisis técnico y práctica aplicada.">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css">
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const lightbox = GLightbox({
+            selector: '.glightbox', 
+            touchNavigation: true,
+            loop: true,
+            zoomable: true,
+            autoplayVideos: true
+        });
+        console.log('✅ GLightbox cargado correctamente');
+    });
+</script>
+<meta property="og:url" content="http://localhost:4321/ANIF/conferencias/conf10/">
+  <meta property="og:site_name" content="Semillero ANIF Univalle">
+  <meta property="og:title" content="Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF">
+  <meta property="og:description" content="En la décima sesión del Semillero ANIF se explorarán las herramientas cuantitativas para medir y gestionar el riesgo financiero en las inversiones de renta variable, combinando teoría, análisis técnico y práctica aplicada.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="conferencias">
+    <meta property="article:published_time" content="2025-11-10T16:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-10T16:00:00+00:00">
+    <meta property="article:tag" content="Riesgo Financiero">
+    <meta property="article:tag" content="Renta Variable">
+    <meta property="article:tag" content="Valor en Riesgo">
+    <meta property="article:tag" content="CAPM">
+    <meta property="article:tag" content="Sharpe Ratio">
+    <meta property="article:tag" content="Gestión Cuantitativa">
+    <meta property="og:image" content="https://juniorjb5.github.io/ANIF/images/favicon.png">
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper"><div id="header">
+    <div id="logo-wrapper"><h1><a href="http://localhost:4321/ANIF/" id="logo">
+        Semillero ANIF Univalle
+    </a></h1></div>
+
+    <nav id="nav">
+        <ul>
+                <li class="">
+                    <a href="/ANIF/">Inicio</a>
+                <li class="">
+                    <a href="/ANIF/quienessomos/">Quiénes somos</a>
+                <li class="">
+                    <a href="/ANIF/posts/">Publicaciones</a>
+                <li class="current">
+                    <a href="/ANIF/conferencias/">Eventos</a>
+                <li class="">
+                    <a href="/ANIF/integrantes/">Integrantes</a>
+                <li class="">
+                    <a href="/ANIF/gifinc/">Grupo de Investigación GIFINC</a>
+                <li class="">
+                    <a href="/ANIF/gallery/">Galería de Fotos</a>
+        </ul>
+    </nav>
+</div>
+
+
+            <section class="wrapper style1">
+                <div class="container">
+                    <div class="row gtr-200">
+                            <div class="col-4 col-12-narrower">
+                                <div id="sidebar">
+<section>
+    <h3></h3>
+    <p>Somos un grupo de profesionales y estudiantes apasionados por la analítica y las finanzas, enfocados en desarrollar soluciones innovadoras y generar impacto en el mundo financiero.</p>
+    <footer>
+        <a href="/contacto" class="button"></a>
+    </footer>
+</section>
+
+
+
+<hr style="border: none; height: 5px; background-color: #f0f0f0; width: 100% !important; margin: 20px auto !important;">
+
+<br>
+
+
+
+<section>
+    <h3>Enlaces de interés</h3>
+    <h3></h3>
+    <ul class="links">
+        <li><a href="https://www.univalle.edu.co/">La Universidad</a></li>
+        <li><a href="https://ingenieria.univalle.edu.co/">La Facultad</a></li>
+        <li><a href="https://industrial.univalle.edu.co/">La Escuela</a></li>
+        <li><a href="https://www.semilleroanifunivalle.com/integrantes/">Conoce a Nuestro Equipo</a></li>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" target="_blank">Síguenos en LinkedIn</a></li>
+    </ul>
+    <footer>
+        <a href="/proyectos" class="button"></a>
+    </footer>
+</section>
+
+
+
+                                </div>
+                            </div>
+
+                        <div class="col-8 col-12-narrower imp-narrower">
+                            <div id="content">
+                                <article>
+    <header>
+        <h2>Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF</h2>
+        <p>En la décima sesión del Semillero ANIF se explorarán las herramientas cuantitativas para medir y gestionar el riesgo financiero en las inversiones de renta variable, combinando teoría, análisis técnico y práctica aplicada.</p>
+        
+        <ul class="tags"><li><a href="/ANIF/tags/riesgo-financiero/">Riesgo Financiero</a><li><a href="/ANIF/tags/renta-variable/">Renta Variable</a><li><a href="/ANIF/tags/valor-en-riesgo/">Valor en Riesgo</a><li><a href="/ANIF/tags/capm/">CAPM</a><li><a href="/ANIF/tags/sharpe-ratio/">Sharpe Ratio</a><li><a href="/ANIF/tags/gesti%C3%B3n-cuantitativa/">Gestión Cuantitativa</a><li><a href="/ANIF/tags/inversi%C3%B3n/">Inversión</a><li><a href="/ANIF/tags/educaci%C3%B3n-financiera/">Educación Financiera</a>
+</ul>
+
+    </header>
+    <span class="image featured">
+        <img src="/ANIF/images/conf10.jpg" alt="" 
+            style="
+                max-width: 600px;
+                height: auto;
+                object-fit: cover;
+                border-radius: 8px;
+                display: block;
+                margin: 0 auto;
+            " />
+    </span>
+<h2 id="análisis-del-riesgo-financiero-en-las-inversiones-de-renta-variable">Análisis del riesgo financiero en las inversiones de renta variable</h2>
+<p>En un mercado donde la incertidumbre es constante y los precios reaccionan a factores globales cada segundo, la intuición ya no es suficiente.<br>
+La gestión cuantitativa del riesgo y el análisis técnico del rendimiento se han convertido en pilares esenciales para tomar decisiones de inversión fundamentadas.</p>
+<p>Esta sesión mostrará cómo <strong>analizar riesgo y rendimiento</strong> con base en herramientas técnicas y modelos estadísticos, permitiendo tomar decisiones más informadas y menos dependientes de la intuición o las tendencias del mercado.</p>
+<h3 id="objetivo-de-la-sesión">Objetivo de la sesión</h3>
+<p>Guiar a los participantes en la aplicación de métricas y modelos financieros para evaluar el desempeño de las inversiones, cuantificar el riesgo asumido y analizar la relación entre <strong>riesgo y retorno</strong> en portafolios de renta variable.</p>
+<h3 id="contenido-principal">Contenido principal</h3>
+<ul>
+<li>Introducción a la <strong>gestión cuantitativa del riesgo</strong>.</li>
+<li>Cálculo e interpretación del <strong>Valor en Riesgo (VaR)</strong> y <strong>CVaR</strong>.</li>
+<li>Análisis de <strong>retornos, volatilidad y correlaciones</strong> entre activos financieros.</li>
+<li>Aplicaciones prácticas con herramientas como <strong>Excel, R o Python</strong>.</li>
+</ul>
+<h3 id="taller-práctico">Taller práctico</h3>
+<p>Durante la segunda parte de la sesión se desarrollará un <strong>taller interactivo</strong>, en el cual los participantes aplicarán las métricas vistas para:</p>
+<ul>
+<li>Calcular y comparar el riesgo de diferentes activos.</li>
+<li>Estimar el <strong>VaR</strong> de portafolios simulados.</li>
+<li>Analizar la correlación entre activos y su efecto en la diversificación.</li>
+<li>Formular decisiones de inversión con base en resultados cuantitativos.</li>
+</ul>
+<p>📅 <strong>Lunes, 10 de noviembre – 4:00 PM</strong><br>
+🏫 <strong>Salón 2027 – Edificio E23, Universidad del Valle</strong><br>
+💻 <strong><a href="https://meet.google.com/asn-aoba-ucd">Modalidad híbrida</a></strong></p>
+<h2 id="-desde-el-semillero-anif">💬 Desde el Semillero ANIF</h2>
+<p>Con esta charla, el <strong>Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)</strong> continúa fortaleciendo las competencias analíticas de sus integrantes, promoviendo una visión técnica y fundamentada para la <strong>gestión del riesgo y la toma de decisiones de inversión</strong>.</p>
+
+
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://www.univalle.edu.co/">Universidad del Valle</a><li><a href="https://ingenieria.univalle.edu.co/">Facultad de Ingeniería</a><li><a href="https://industrial.univalle.edu.co/">Escuela de Ingeniería Industrial</a>
+                    </ul>
+                </section>
+                <section class="col-3 col-6-narrower col-12-mobilep">
+                    <h3></h3>
+                    <ul class="links"><li><a href="https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000013799">GrupLAC</a><li><a href="https://industrial.univalle.edu.co/profesores/diego-fernando-manotas-duque">Director </a>
+                    </ul>
+                </section>
+            <section class="col-6 col-12-narrower">
+    <h3>Contáctanos</h3>
+    <div>
+        <p>
+            📧 <a href="mailto:investigacion.gifinc@correounivalle.edu.co" style="text-decoration: none; color: inherit;">investigacion.gifinc@correounivalle.edu.co</a>
+        </p>
+        <p>
+            📍 Calle 13 No. 100 - 00, <br>
+Edificio E23 - Ciudadela Universitaria Meléndez <br>
+Universidad del Valle <br>
+Cali, Colombia
+        </p>
+    </div>
+</section>
+
+        </div>
+    </div>
+
+    <ul class="icons">
+        <li><a href="#" class="icon brands fa-github">
+            <span class="label">GitHub</span>
+        </a>
+        <li><a href="https://www.linkedin.com/company/semillero-anif-univalle/" class="icon brands fa-linkedin-in">
+            <span class="label">LinkedIn</span>
+        </a>
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>© All rights reserved
+            
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a>
+                <li><a href="https://github.com/half-duplex/hugo-arcana">Theme</a>
+        </ul>
+    </div>
+</div>
+</div><script src="/ANIF/js/jquery.min.js"></script>
+<script src="/ANIF/js/jquery.dropotron.min.js"></script>
+<script src="/ANIF/js/browser.min.js"></script>
+<script src="/ANIF/js/breakpoints.min.js"></script>
+<script src="/ANIF/js/util.js"></script>
+<script src="/ANIF/js/main.js"></script>
+</body>
+</html>
