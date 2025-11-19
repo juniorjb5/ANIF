@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Tue, 04 Nov 2025 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/riesgo-financiero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Análisis del Riesgo Financiero en Inversiones de Renta Variable</title>
+      <link>http://localhost:4321/ANIF/posts/post_10/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_10/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;10 de noviembre&lt;/strong&gt;, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) desarrolló su décima sesión titulada &lt;strong&gt;“Análisis del Riesgo Financiero en Inversiones de Renta Variable”&lt;/strong&gt;, enfocada en comprender de manera cuantitativa el riesgo y rendimiento de activos del mercado bursátil.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se presentó y explicó en detalle el &lt;strong&gt;código completo utilizado para el análisis cuantitativo&lt;/strong&gt;, con el fin de que los participantes pudieran reproducir las métricas y visualizaciones clave en R.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Análisis del riesgo financiero en las inversiones de renta variable – Décima Sesión del Semillero ANIF</title>
       <link>http://localhost:4321/ANIF/conferencias/conf10/</link>
