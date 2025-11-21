@@ -1,7 +1,7 @@
 ---
 title: "Presentación de Portafolios de Inversión Semestre 2025-II"
 image: images/conf11.jpg
-date: "2025-11-24T16:00:00"
+date: "2025-11-19T16:00:00"
 tags:
   - Portafolio de Inversión
   - Rendimiento
