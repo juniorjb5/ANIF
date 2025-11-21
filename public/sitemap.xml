@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
@@ -11,13 +11,43 @@
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
-    <lastmod>2025-11-04T16:00:00+00:00</lastmod>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/gifinc/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/estrategia-de-inversi%C3%B3n/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/gesti%C3%B3n-financiera/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/investopedia/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/portafolio-de-inversi%C3%B3n/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf11/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/rendimiento/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/renta-variable/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/simulaci%C3%B3n-de-mercados/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2025-11-24T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/post_10/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
@@ -31,22 +61,13 @@
     <loc>http://localhost:4321/ANIF/tags/quantitative-finance/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/renta-variable/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/ANIF/tags/riesgo-financiero/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/conf10/</loc>
     <lastmod>2025-11-04T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/capm/</loc>
-    <lastmod>2025-11-04T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</loc>
     <lastmod>2025-11-04T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/gesti%C3%B3n-cuantitativa/</loc>
@@ -83,9 +104,6 @@
     <lastmod>2025-10-18T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
-    <lastmod>2025-10-18T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/investopedia/</loc>
     <lastmod>2025-10-18T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/valoraci%C3%B3n/</loc>

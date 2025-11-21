@@ -7,8 +7,64 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Educación Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
+      <pubDate>Tue, 04 Nov 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estrategia De Inversión</title>
+      <link>http://localhost:4321/ANIF/tags/estrategia-de-inversi%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/estrategia-de-inversi%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestión Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/gesti%C3%B3n-financiera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/gesti%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investopedia</title>
+      <link>http://localhost:4321/ANIF/tags/investopedia/</link>
+      <pubDate>Sat, 18 Oct 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/investopedia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portafolio De Inversión</title>
+      <link>http://localhost:4321/ANIF/tags/portafolio-de-inversi%C3%B3n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/portafolio-de-inversi%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rendimiento</title>
+      <link>http://localhost:4321/ANIF/tags/rendimiento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/rendimiento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Renta Variable</title>
+      <link>http://localhost:4321/ANIF/tags/renta-variable/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/renta-variable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulación De Mercados</title>
+      <link>http://localhost:4321/ANIF/tags/simulaci%C3%B3n-de-mercados/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/simulaci%C3%B3n-de-mercados/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data Analytics</title>
       <link>http://localhost:4321/ANIF/tags/data-analytics/</link>
@@ -31,13 +87,6 @@
       <description></description>
     </item>
     <item>
-      <title>Renta Variable</title>
-      <link>http://localhost:4321/ANIF/tags/renta-variable/</link>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/renta-variable/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Riesgo Financiero</title>
       <link>http://localhost:4321/ANIF/tags/riesgo-financiero/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
@@ -49,13 +98,6 @@
       <link>http://localhost:4321/ANIF/tags/capm/</link>
       <pubDate>Tue, 04 Nov 2025 16:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/capm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Educación Financiera</title>
-      <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
-      <pubDate>Tue, 04 Nov 2025 16:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
       <description></description>
     </item>
     <item>
@@ -126,13 +168,6 @@
       <link>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</link>
       <pubDate>Sat, 18 Oct 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Investopedia</title>
-      <link>http://localhost:4321/ANIF/tags/investopedia/</link>
-      <pubDate>Sat, 18 Oct 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/investopedia/</guid>
       <description></description>
     </item>
     <item>

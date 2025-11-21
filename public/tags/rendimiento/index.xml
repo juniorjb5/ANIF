@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Investopedia on Semillero ANIF Univalle</title>
-    <link>http://localhost:4321/ANIF/tags/investopedia/</link>
-    <description>Recent content in Investopedia on Semillero ANIF Univalle</description>
+    <title>Rendimiento on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/rendimiento/</link>
+    <description>Recent content in Rendimiento on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Mon, 24 Nov 2025 16:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/ANIF/tags/investopedia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/rendimiento/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Presentación de Portafolios de Inversión Semestre 2025-II</title>
       <link>http://localhost:4321/ANIF/conferencias/conf11/</link>
       <pubDate>Mon, 24 Nov 2025 16:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/conferencias/conf11/</guid>
       <description>&lt;h2 id=&#34;presentación-de-portafolios-de-inversión-semestre-2025-ii&#34;&gt;Presentación de Portafolios de Inversión Semestre 2025-II&lt;/h2&gt;&#xA;&lt;p&gt;Llegamos a la última sesión del Semestre 2025-II del &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt;. Esta jornada es el punto culminante de la aplicación práctica de los conocimientos adquiridos, centrada en la exposición de los resultados de los portafolios de inversión gestionados por nuestros estudiantes en el simulador de &lt;strong&gt;Investopedia&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El foco estará en la &lt;strong&gt;síntesis de información&lt;/strong&gt; y la capacidad de ir al punto, demostrando un análisis profundo y conciso de las decisiones tomadas y los resultados obtenidos a lo largo del periodo de simulación.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>El precio no lo dice todo: Descubriendo el valor real detrás de las acciones</title>
-      <link>http://localhost:4321/ANIF/conferencias/conf9/</link>
-      <pubDate>Sat, 18 Oct 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/conferencias/conf9/</guid>
-      <description>&lt;p&gt;El &lt;strong&gt;Semillero ANIF&lt;/strong&gt; continúa su ciclo de formación en análisis financiero y valoración de empresas con el taller &lt;strong&gt;“El precio no lo dice todo: Descubriendo el valor real detrás de las acciones.”&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta sesión práctica busca analizar si el precio actual de una acción refleja verdaderamente el valor de la empresa, combinando teoría, análisis de datos financieros y toma de decisiones de inversión simuladas.&lt;/p&gt;&#xA;&lt;p&gt;Durante el taller se abordarán los &lt;strong&gt;principios del análisis fundamental&lt;/strong&gt;, explorando cómo los indicadores de rentabilidad, liquidez, endeudamiento y desempeño sectorial permiten estimar el valor real de una compañía más allá de las fluctuaciones del mercado.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
