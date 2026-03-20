@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semillero ANIF on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/semillero-anif/</link>
+    <description>Recent content in Semillero ANIF on Semillero ANIF Univalle</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© All rights reserved</copyright>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/ANIF/tags/semillero-anif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sesión de Apertura Semillero ANIF 2026-I</title>
+      <link>http://localhost:4321/ANIF/posts/post_12/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/posts/post_12/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;11 de marzo&lt;/strong&gt;, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) dio inicio oficial al periodo &lt;strong&gt;2026-I&lt;/strong&gt; con su sesión de apertura, un espacio orientado a presentar la estructura, metodología y objetivos del semestre.&lt;/p&gt;&#xA;&lt;p&gt;Durante la jornada, se socializó la &lt;strong&gt;dinámica de trabajo del semillero&lt;/strong&gt;, incluyendo la programación de sesiones y la metodología basada en el acompañamiento docente. En este enfoque, cada profesor liderará un grupo de estudiantes, quienes desarrollarán retos académicos a lo largo del semestre, fortaleciendo sus competencias en análisis financiero, pensamiento crítico y aplicación práctica.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

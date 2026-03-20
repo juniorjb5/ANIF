@@ -38,17 +38,38 @@
       <description></description>
     </item>
     <item>
-      <title>Análisis Financiero</title>
-      <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-financiero/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-financiero/</guid>
+      <title>AMV</title>
+      <link>http://localhost:4321/ANIF/tags/amv/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/amv/</guid>
       <description></description>
     </item>
     <item>
       <title>Educación Financiera</title>
       <link>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/educaci%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formación Académica</title>
+      <link>http://localhost:4321/ANIF/tags/formaci%C3%B3n-acad%C3%A9mica/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/formaci%C3%B3n-acad%C3%A9mica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semillero ANIF</title>
+      <link>http://localhost:4321/ANIF/tags/semillero-anif/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/semillero-anif/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Análisis Financiero</title>
+      <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-financiero/</link>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-financiero/</guid>
       <description></description>
     </item>
     <item>
