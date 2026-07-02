@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Semillero ANIF on Semillero ANIF Univalle</title>
-    <link>http://localhost:4321/ANIF/tags/semillero-anif/</link>
-    <description>Recent content in Semillero ANIF on Semillero ANIF Univalle</description>
+    <title>Revisión De Literatura on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/revisi%C3%B3n-de-literatura/</link>
+    <description>Recent content in Revisión De Literatura on Semillero ANIF Univalle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
     <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/ANIF/tags/semillero-anif/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/ANIF/tags/revisi%C3%B3n-de-literatura/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entrega de resultados: Revisiones de Literatura</title>
       <link>http://localhost:4321/ANIF/posts/post_13/</link>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/posts/post_13/</guid>
       <description>&lt;h2 id=&#34;entrega-de-resultados-revisiones-de-literatura&#34;&gt;Entrega de resultados: Revisiones de Literatura&lt;/h2&gt;&#xA;&lt;p&gt;Como actividad de cierre del semestre &lt;strong&gt;2026-I&lt;/strong&gt;, los integrantes del &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; presentaron los resultados de sus procesos de &lt;strong&gt;revisión de literatura&lt;/strong&gt;, un ejercicio académico que permitió fortalecer competencias en búsqueda, análisis crítico y síntesis de conocimiento científico.&lt;/p&gt;&#xA;&lt;p&gt;Desde el inicio del semillero, cada estudiante trabajó de manera articulada con su tutor, construyendo un estado del arte sobre una temática de interés relacionada con las finanzas, la analítica de datos y la ingeniería financiera. Este proceso implicó la identificación de vacíos de investigación, el análisis de tendencias recientes y la consolidación de una base conceptual sólida para futuras investigaciones.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sesión de Apertura Semillero ANIF 2026-I</title>
-      <link>http://localhost:4321/ANIF/posts/post_12/</link>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/posts/post_12/</guid>
-      <description>&lt;p&gt;El &lt;strong&gt;11 de marzo&lt;/strong&gt;, el Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF) dio inicio oficial al periodo &lt;strong&gt;2026-I&lt;/strong&gt; con su sesión de apertura, un espacio orientado a presentar la estructura, metodología y objetivos del semestre.&lt;/p&gt;&#xA;&lt;p&gt;Durante la jornada, se socializó la &lt;strong&gt;dinámica de trabajo del semillero&lt;/strong&gt;, incluyendo la programación de sesiones y la metodología basada en el acompañamiento docente. En este enfoque, cada profesor liderará un grupo de estudiantes, quienes desarrollarán retos académicos a lo largo del semestre, fortaleciendo sus competencias en análisis financiero, pensamiento crítico y aplicación práctica.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

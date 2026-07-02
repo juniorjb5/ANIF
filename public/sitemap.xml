@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2026-03-11T16:00:00+00:00</lastmod>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/</loc>
-    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
     <lastmod>2026-03-11T16:00:00+00:00</lastmod>
@@ -19,6 +19,27 @@
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
   </url><url>
+    <loc>http://localhost:4321/ANIF/posts/post_13/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/producci%C3%B3n-acad%C3%A9mica/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/revisi%C3%B3n-de-literatura/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/semillero-anif/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</loc>
     <lastmod>2026-03-11T16:00:00+00:00</lastmod>
   </url><url>
@@ -28,13 +49,7 @@
     <loc>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-de-proyectos/</loc>
     <lastmod>2026-03-11T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
-    <lastmod>2026-03-11T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/ANIF/tags/ingenier%C3%ADa-financiera/</loc>
-    <lastmod>2026-03-11T16:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2026-03-11T16:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/amv/</loc>
@@ -44,9 +59,6 @@
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/formaci%C3%B3n-acad%C3%A9mica/</loc>
-    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/semillero-anif/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/posts/post_12/</loc>
@@ -280,7 +292,5 @@
     <loc>http://localhost:4321/ANIF/tags/anif/</loc>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/gifinc/</loc>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
   </url>
 </urlset>
