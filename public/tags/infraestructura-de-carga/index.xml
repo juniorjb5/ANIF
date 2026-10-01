@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infraestructura De Carga on Semillero ANIF Univalle</title>
+    <link>http://localhost:4321/ANIF/tags/infraestructura-de-carga/</link>
+    <description>Recent content in Infraestructura De Carga on Semillero ANIF Univalle</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© All rights reserved</copyright>
+    <lastBuildDate>Fri, 09 Oct 2026 13:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/ANIF/tags/infraestructura-de-carga/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charla: Cómo surge un problema de investigación</title>
+      <link>http://localhost:4321/ANIF/conferencias/conf13/</link>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/conferencias/conf13/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; invita a sus estudiantes a participar en esta charla académica, un espacio orientado a conocer de manera práctica cómo surge y se desarrolla un problema de investigación a partir de una experiencia real de trabajo de grado.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se abordarán aspectos relacionados con la &lt;strong&gt;identificación, delimitación y análisis de un problema de investigación&lt;/strong&gt;, así como la forma en que estos elementos pueden convertirse en la base para construir una propuesta investigativa.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

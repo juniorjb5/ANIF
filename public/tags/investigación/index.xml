@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/investigaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quiénes somos</title>
@@ -22,6 +22,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/gifinc/</guid>
       <description>&lt;h3 id=&#34;nuestra-misión-innovación-y-excelencia-en-finanzas-cuantitativas&#34;&gt;Nuestra Misión: Innovación y Excelencia en Finanzas Cuantitativas&lt;/h3&gt;&#xA;&lt;p&gt;En GIFINC, estamos comprometidos con la generación de conocimiento que impulse la evolución de los mercados financieros. Nuestra estrategia se centra en:&lt;/p&gt;&#xA;&lt;p&gt;🔍 Explorar y desarrollar nuevos enfoques en finanzas cuantitativas, combinando metodología, teoría y aplicación práctica.&lt;/p&gt;&#xA;&lt;p&gt;📚 Publicar y compartir investigaciones en revistas científicas de alto impacto en energía, finanzas, economía y administración.&lt;/p&gt;&#xA;&lt;p&gt;🎓 Impulsar la educación con programas académicos de pregrado y posgrado de excelencia en la Universidad del Valle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Charla: Cómo surge un problema de investigación</title>
+      <link>http://localhost:4321/ANIF/conferencias/conf13/</link>
+      <pubDate>Fri, 09 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/conferencias/conf13/</guid>
+      <description>&lt;p&gt;El &lt;strong&gt;Semillero de Investigación en Analítica e Ingeniería Financiera (ANIF)&lt;/strong&gt; invita a sus estudiantes a participar en esta charla académica, un espacio orientado a conocer de manera práctica cómo surge y se desarrolla un problema de investigación a partir de una experiencia real de trabajo de grado.&lt;/p&gt;&#xA;&lt;p&gt;Durante la sesión se abordarán aspectos relacionados con la &lt;strong&gt;identificación, delimitación y análisis de un problema de investigación&lt;/strong&gt;, así como la forma en que estos elementos pueden convertirse en la base para construir una propuesta investigativa.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Entrega de resultados: Revisiones de Literatura</title>

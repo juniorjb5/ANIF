@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:4321/ANIF/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/quienessomos/</loc>
   </url><url>
@@ -11,7 +11,7 @@
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/conferencias/</loc>
-    <lastmod>2026-03-11T16:00:00+00:00</lastmod>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/integrantes/</loc>
   </url><url>
@@ -19,13 +19,28 @@
   </url><url>
     <loc>http://localhost:4321/ANIF/gallery/</loc>
   </url><url>
+    <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-tecno-financiero/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/conferencias/conf13/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/infraestructura-de-carga/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/ANIF/tags/trabajo-de-grado/</loc>
+    <lastmod>2026-10-09T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/ANIF/posts/post_13/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/finanzas/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/producci%C3%B3n-acad%C3%A9mica/</loc>
@@ -35,9 +50,6 @@
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/semillero-anif/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/ANIF/tags/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-riesgo/</loc>
