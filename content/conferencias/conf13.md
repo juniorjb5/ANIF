@@ -18,7 +18,7 @@ La charla estará a cargo de **Mayra A. Narváez**, Magíster en Ingeniería Ind
 
 > *"Fast-charging infrastructure viability for heavy-duty electric trucks: A techno-financial assessment under fleet-renewal policy scenarios in Colombia"*
 
-📅 **Fecha:** Jueves, 9 de octubre  
+📅 **Fecha:** Jueves, 8 de octubre  
 🕐 **Hora:** 1:00 p. m.  
 💻 **Modalidad:** [PAT](https://meet.google.com/omf-hqqp-wec)
 
