@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 13:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Análisis De Datos</title>
+      <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-datos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analítica</title>
+      <link>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exploración De Datos</title>
+      <link>http://localhost:4321/ANIF/tags/exploraci%C3%B3n-de-datos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/exploraci%C3%B3n-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Investigación</title>
+      <link>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Análisis Tecno-Financiero</title>
       <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-tecno-financiero/</link>
@@ -21,13 +49,6 @@
       <link>http://localhost:4321/ANIF/tags/infraestructura-de-carga/</link>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/infraestructura-de-carga/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Investigación</title>
-      <link>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</link>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
