@@ -7,34 +7,83 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© All rights reserved</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/ANIF/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Análisis De Datos</title>
       <link>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-datos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/an%C3%A1lisis-de-datos/</guid>
       <description></description>
     </item>
     <item>
-      <title>Analítica</title>
-      <link>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</guid>
+      <title>Calidad Del Dato</title>
+      <link>http://localhost:4321/ANIF/tags/calidad-del-dato/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/calidad-del-dato/</guid>
       <description></description>
     </item>
     <item>
       <title>Exploración De Datos</title>
       <link>http://localhost:4321/ANIF/tags/exploraci%C3%B3n-de-datos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/exploraci%C3%B3n-de-datos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semillero ANIF</title>
+      <link>http://localhost:4321/ANIF/tags/semillero-anif/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/semillero-anif/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualización</title>
+      <link>http://localhost:4321/ANIF/tags/visualizaci%C3%B3n/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/visualizaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analítica</title>
+      <link>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</link>
+      <pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/anal%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Investigación</title>
       <link>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</link>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/investigaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evaluación Financiera</title>
+      <link>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-financiera/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/evaluaci%C3%B3n-financiera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Metodología De Investigación</title>
+      <link>http://localhost:4321/ANIF/tags/metodolog%C3%ADa-de-investigaci%C3%B3n/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/metodolog%C3%ADa-de-investigaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movilidad Eléctrica</title>
+      <link>http://localhost:4321/ANIF/tags/movilidad-el%C3%A9ctrica/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/movilidad-el%C3%A9ctrica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problema De Investigación</title>
+      <link>http://localhost:4321/ANIF/tags/problema-de-investigaci%C3%B3n/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/ANIF/tags/problema-de-investigaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
@@ -77,13 +126,6 @@
       <link>http://localhost:4321/ANIF/tags/revisi%C3%B3n-de-literatura/</link>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/ANIF/tags/revisi%C3%B3n-de-literatura/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Semillero ANIF</title>
-      <link>http://localhost:4321/ANIF/tags/semillero-anif/</link>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/ANIF/tags/semillero-anif/</guid>
       <description></description>
     </item>
     <item>
